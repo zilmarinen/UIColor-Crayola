@@ -901,16 +901,6 @@
 	return [UIColor colorWithRed:0.13 green:0.31 blue:0.78 alpha:1.0];
 }
 
-+ (UIColor *)orange
-{
-	return [UIColor colorWithRed:1.00 green:0.53 blue:0.40 alpha:1.0];
-}
-
-+ (UIColor *)peach
-{
-	return [UIColor colorWithRed:1.00 green:0.82 blue:0.73 alpha:1.0];
-}
-
 + (UIColor *)pine
 {
 	return [UIColor colorWithRed:0.27 green:0.64 blue:0.49 alpha:1.0];

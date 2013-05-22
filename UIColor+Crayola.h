@@ -189,8 +189,6 @@
 + (UIColor *)lime;
 + (UIColor *)lumber;
 + (UIColor *)newCar;
-+ (UIColor *)orange;
-+ (UIColor *)peach;
 + (UIColor *)pine;
 + (UIColor *)rose;
 + (UIColor *)shampoo;

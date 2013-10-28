@@ -78,7 +78,12 @@ foreach($colors as $key => $value)
 
 	$main_code = "+ (UIColor *)$name\n";
 	$main_code .= "{\n";
-	$main_code .= "\treturn $color;\n";
+	$main_code .= "\tstatic UIColor *color = nil;\n\n";
+	$main_code .= "\tif(!color)\n";
+	$main_code .= "\t{\n";
+	$main_code .= "\t\tcolor = $color;\n";
+	$main_code .= "\t}\n\n";
+	$main_code .= "\treturn color;\n";
 	$main_code .= "}\n\n";
 
 	$markdown_code = uicolor_table_row($value, $key, $image_width, $image_height, $github_url . "images/");

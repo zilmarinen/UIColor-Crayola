@@ -19,7 +19,7 @@ $markdown_filename = "README.md";
 $image_width = 32;
 $image_height = 32;
 
-$github_url = "https://github.com/CaptainRedmuff/UIColor-Crayola/blob/master/";
+$github_url = "https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/";
 
 $header_file_meta = "//\n";
 $header_file_meta .= "//*******\n";

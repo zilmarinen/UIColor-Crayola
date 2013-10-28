@@ -1920,3 +1920,7 @@ List of 273 colors sourced from: <a href="http://en.wikipedia.org/wiki/Crayola_c
 
 </table>
 
+===============
+
+Contributors:
+<a href="https://github.com/Abizern" title="Abizern">Abizern</a>

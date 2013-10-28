@@ -11,3280 +11,1399 @@
 
 @implementation UIColor (Crayola)
 
-+ (UIColor *)crayolaAbsoluteZeroColor
++ (instancetype)crayolaAbsoluteZeroColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.00 green:0.28 blue:0.73 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.28 blue:0.73 alpha:1.0];
-	}
++ (instancetype)crayolaAlienArmpitColor
+{
+	return [[self class] crayolaColorWithRed:0.52 green:0.87 blue:0.01 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaAlloyOrangeColor
+{
+	return [[self class] crayolaColorWithRed:0.77 green:0.38 blue:0.06 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAlienArmpitColor
++ (instancetype)crayolaAlmondColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.94 green:0.87 blue:0.80 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.52 green:0.87 blue:0.01 alpha:1.0];
-	}
++ (instancetype)crayolaAmethystColor
+{
+	return [[self class] crayolaColorWithRed:0.39 green:0.38 blue:0.60 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaAntiqueBrassColor
+{
+	return [[self class] crayolaColorWithRed:0.80 green:0.58 blue:0.46 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAlloyOrangeColor
++ (instancetype)crayolaApricotColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.85 blue:0.71 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.77 green:0.38 blue:0.06 alpha:1.0];
-	}
++ (instancetype)crayolaAquaPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.37 green:0.75 blue:0.84 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaAquamarineColor
+{
+	return [[self class] crayolaColorWithRed:0.47 green:0.86 blue:0.89 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAlmondColor
++ (instancetype)crayolaAsparagusColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.53 green:0.66 blue:0.42 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.94 green:0.87 blue:0.80 alpha:1.0];
-	}
++ (instancetype)crayolaAtomicTangerineColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.64 blue:0.45 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaAztecGoldColor
+{
+	return [[self class] crayolaColorWithRed:0.76 green:0.60 blue:0.33 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAmethystColor
++ (instancetype)crayolaBabyPowderColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:1.00 blue:0.98 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.39 green:0.38 blue:0.60 alpha:1.0];
-	}
++ (instancetype)crayolaBananaColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.82 blue:0.16 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBananaManiaColor
+{
+	return [[self class] crayolaColorWithRed:0.98 green:0.91 blue:0.71 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAntiqueBrassColor
++ (instancetype)crayolaBdazzledBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.18 green:0.35 blue:0.58 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.80 green:0.58 blue:0.46 alpha:1.0];
-	}
++ (instancetype)crayolaBeaverColor
+{
+	return [[self class] crayolaColorWithRed:0.62 green:0.51 blue:0.44 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBigDipORubyColor
+{
+	return [[self class] crayolaColorWithRed:0.61 green:0.15 blue:0.26 alpha:1.0];
 }
 
-+ (UIColor *)crayolaApricotColor
++ (instancetype)crayolaBigFootFeetColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.91 green:0.56 blue:0.35 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.85 blue:0.71 alpha:1.0];
-	}
++ (instancetype)crayolaBittersweetColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.49 blue:0.43 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBittersweetShimmerColor
+{
+	return [[self class] crayolaColorWithRed:0.75 green:0.31 blue:0.32 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAquaPearlColor
++ (instancetype)crayolaBlackColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.00 green:0.00 blue:0.00 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.37 green:0.75 blue:0.84 alpha:1.0];
-	}
++ (instancetype)crayolaBlackCoralPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.33 green:0.38 blue:0.44 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBlackShadowsColor
+{
+	return [[self class] crayolaColorWithRed:0.75 green:0.69 blue:0.70 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAquamarineColor
++ (instancetype)crayolaBlastOffBronzeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.65 green:0.44 blue:0.39 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.47 green:0.86 blue:0.89 alpha:1.0];
-	}
++ (instancetype)crayolaBlizzardBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.67 green:0.90 blue:0.93 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.12 green:0.46 blue:1.00 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAsparagusColor
++ (instancetype)crayolaBlueBellColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.64 green:0.64 blue:0.82 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.53 green:0.66 blue:0.42 alpha:1.0];
-	}
++ (instancetype)crayolaBlueGrayColor
+{
+	return [[self class] crayolaColorWithRed:0.00 green:0.02 blue:0.61 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBlueGreenColor
+{
+	return [[self class] crayolaColorWithRed:0.05 green:0.60 blue:0.73 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAtomicTangerineColor
++ (instancetype)crayolaBlueJeansColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.36 green:0.68 blue:0.93 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.64 blue:0.45 alpha:1.0];
-	}
++ (instancetype)crayolaBlueVioletColor
+{
+	return [[self class] crayolaColorWithRed:0.45 green:0.40 blue:0.74 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBlueberryColor
+{
+	return [[self class] crayolaColorWithRed:0.31 green:0.53 blue:0.97 alpha:1.0];
 }
 
-+ (UIColor *)crayolaAztecGoldColor
++ (instancetype)crayolaBlushColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.87 green:0.36 blue:0.51 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.76 green:0.60 blue:0.33 alpha:1.0];
-	}
++ (instancetype)crayolaBoogerBusterColor
+{
+	return [[self class] crayolaColorWithRed:0.87 green:0.89 blue:0.42 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBrickRedColor
+{
+	return [[self class] crayolaColorWithRed:0.80 green:0.25 blue:0.33 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBabyPowderColor
++ (instancetype)crayolaBrightYellowColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.67 blue:0.11 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.98 alpha:1.0];
-	}
++ (instancetype)crayolaBrownColor
+{
+	return [[self class] crayolaColorWithRed:0.71 green:0.40 blue:0.30 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBrownSugarColor
+{
+	return [[self class] crayolaColorWithRed:0.69 green:0.43 blue:0.30 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBananaColor
++ (instancetype)crayolaBubbleGumColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.83 blue:0.97 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.82 blue:0.16 alpha:1.0];
-	}
++ (instancetype)crayolaBurnishedBrownColor
+{
+	return [[self class] crayolaColorWithRed:0.63 green:0.48 blue:0.45 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaBurntOrangeColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.50 blue:0.29 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBananaManiaColor
++ (instancetype)crayolaBurntSiennaColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.92 green:0.49 blue:0.36 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.98 green:0.91 blue:0.71 alpha:1.0];
-	}
++ (instancetype)crayolaCadetBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.69 green:0.72 blue:0.78 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaCanaryColor
+{
+	return [[self class] crayolaColorWithRed:0.00 green:0.06 blue:0.98 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBdazzledBlueColor
++ (instancetype)crayolaCaribbeanGreenColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.11 green:0.83 blue:0.64 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.18 green:0.35 blue:0.58 alpha:1.0];
-	}
++ (instancetype)crayolaCaribbeanGreenPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.42 green:0.85 blue:0.56 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaCarnationPinkColor
+{
+	return [[self class] crayolaColorWithRed:0.00 green:0.06 blue:0.67 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBeaverColor
++ (instancetype)crayolaCedarChestColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.79 green:0.35 blue:0.29 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.62 green:0.51 blue:0.44 alpha:1.0];
-	}
++ (instancetype)crayolaCeriseColor
+{
+	return [[self class] crayolaColorWithRed:0.87 green:0.27 blue:0.57 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaCeruleanColor
+{
+	return [[self class] crayolaColorWithRed:0.11 green:0.67 blue:0.84 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBigDipORubyColor
++ (instancetype)crayolaCeruleanFrostColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.43 green:0.61 blue:0.76 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.61 green:0.15 blue:0.26 alpha:1.0];
-	}
++ (instancetype)crayolaCherryColor
+{
+	return [[self class] crayolaColorWithRed:0.85 green:0.15 blue:0.28 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaChestnutColor
+{
+	return [[self class] crayolaColorWithRed:0.74 green:0.36 blue:0.35 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBigFootFeetColor
++ (instancetype)crayolaChocolateColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.74 green:0.51 blue:0.38 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.91 green:0.56 blue:0.35 alpha:1.0];
-	}
++ (instancetype)crayolaCinnamonSatinColor
+{
+	return [[self class] crayolaColorWithRed:0.80 green:0.38 blue:0.49 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaCitrineColor
+{
+	return [[self class] crayolaColorWithRed:0.58 green:0.22 blue:0.04 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBittersweetColor
++ (instancetype)crayolaCoconutColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.49 blue:0.43 alpha:1.0];
-	}
++ (instancetype)crayolaCopperColor
+{
+	return [[self class] crayolaColorWithRed:0.87 green:0.58 blue:0.46 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaCopperPennyColor
+{
+	return [[self class] crayolaColorWithRed:0.68 green:0.44 blue:0.41 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBittersweetShimmerColor
++ (instancetype)crayolaCornflowerColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.60 green:0.81 blue:0.92 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.75 green:0.31 blue:0.32 alpha:1.0];
-	}
++ (instancetype)crayolaCosmicCobaltColor
+{
+	return [[self class] crayolaColorWithRed:0.18 green:0.18 blue:0.53 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaCottonCandyColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.74 blue:0.85 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlackColor
++ (instancetype)crayolaCulturedPearlColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.96 green:0.96 blue:0.96 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.00 blue:0.00 alpha:1.0];
-	}
++ (instancetype)crayolaCyberGrapeColor
+{
+	return [[self class] crayolaColorWithRed:0.35 green:0.26 blue:0.49 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaDaffodilColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:1.00 blue:0.19 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlackCoralPearlColor
++ (instancetype)crayolaDandelionColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.86 blue:0.43 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.33 green:0.38 blue:0.44 alpha:1.0];
-	}
++ (instancetype)crayolaDeepSpaceSparkleColor
+{
+	return [[self class] crayolaColorWithRed:0.29 green:0.39 blue:0.42 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaDenimColor
+{
+	return [[self class] crayolaColorWithRed:0.17 green:0.42 blue:0.77 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlackShadowsColor
++ (instancetype)crayolaDenimBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.13 green:0.26 blue:0.71 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.75 green:0.69 blue:0.70 alpha:1.0];
-	}
++ (instancetype)crayolaDesertSandColor
+{
+	return [[self class] crayolaColorWithRed:0.94 green:0.80 blue:0.72 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaDingyDungeonColor
+{
+	return [[self class] crayolaColorWithRed:0.77 green:0.19 blue:0.32 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlastOffBronzeColor
++ (instancetype)crayolaDirtColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.61 green:0.46 blue:0.33 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.65 green:0.44 blue:0.39 alpha:1.0];
-	}
++ (instancetype)crayolaEerieBlackColor
+{
+	return [[self class] crayolaColorWithRed:0.11 green:0.11 blue:0.11 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaEggplantColor
+{
+	return [[self class] crayolaColorWithRed:0.43 green:0.32 blue:0.38 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlizzardBlueColor
++ (instancetype)crayolaElectricLimeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.81 green:1.00 blue:0.11 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.67 green:0.90 blue:0.93 alpha:1.0];
-	}
++ (instancetype)crayolaEmeraldColor
+{
+	return [[self class] crayolaColorWithRed:0.08 green:0.66 blue:0.54 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaEucalyptusColor
+{
+	return [[self class] crayolaColorWithRed:0.27 green:0.84 blue:0.66 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueColor
++ (instancetype)crayolaFernColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.44 green:0.74 blue:0.47 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.12 green:0.46 blue:1.00 alpha:1.0];
-	}
++ (instancetype)crayolaFieryRoseColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.33 blue:0.44 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaForestGreenColor
+{
+	return [[self class] crayolaColorWithRed:0.43 green:0.68 blue:0.51 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueBellColor
++ (instancetype)crayolaFreshAirColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.65 green:0.91 blue:1.00 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.64 green:0.64 blue:0.82 alpha:1.0];
-	}
++ (instancetype)crayolaFrostbiteColor
+{
+	return [[self class] crayolaColorWithRed:0.91 green:0.21 blue:0.65 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaFuchsiaColor
+{
+	return [[self class] crayolaColorWithRed:0.76 green:0.39 blue:0.77 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueGrayColor
++ (instancetype)crayolaFuzzyWuzzyColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.00 green:0.05 blue:0.40 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.02 blue:0.61 alpha:1.0];
-	}
++ (instancetype)crayolaGargoyleGasColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.87 blue:0.27 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaGiantsClubColor
+{
+	return [[self class] crayolaColorWithRed:0.69 green:0.36 blue:0.32 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueGreenColor
++ (instancetype)crayolaGlossyGrapeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.67 green:0.57 blue:0.70 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.05 green:0.60 blue:0.73 alpha:1.0];
-	}
++ (instancetype)crayolaGoldColor
+{
+	return [[self class] crayolaColorWithRed:0.91 green:0.78 blue:0.59 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaGoldFusionColor
+{
+	return [[self class] crayolaColorWithRed:0.52 green:0.46 blue:0.31 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueJeansColor
++ (instancetype)crayolaGoldenrodColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.85 blue:0.46 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.36 green:0.68 blue:0.93 alpha:1.0];
-	}
++ (instancetype)crayolaGraniteGrayColor
+{
+	return [[self class] crayolaColorWithRed:0.40 green:0.40 blue:0.40 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaGrannySmithAppleColor
+{
+	return [[self class] crayolaColorWithRed:0.66 green:0.89 blue:0.63 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueVioletColor
++ (instancetype)crayolaGrapeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.44 green:0.18 blue:0.66 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.45 green:0.40 blue:0.74 alpha:1.0];
-	}
++ (instancetype)crayolaGrayColor
+{
+	return [[self class] crayolaColorWithRed:0.58 green:0.57 blue:0.55 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaGreenColor
+{
+	return [[self class] crayolaColorWithRed:0.11 green:0.67 blue:0.47 alpha:1.0];
 }
 
-+ (UIColor *)crayolaBlueberryColor
++ (instancetype)crayolaGreenBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.07 green:0.39 blue:0.71 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.31 green:0.53 blue:0.97 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBlushColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.87 green:0.36 blue:0.51 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBoogerBusterColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.87 green:0.89 blue:0.42 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBrickRedColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.80 green:0.25 blue:0.33 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBrightYellowColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.67 blue:0.11 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBrownColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.71 green:0.40 blue:0.30 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBrownSugarColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.69 green:0.43 blue:0.30 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBubbleGumColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.83 blue:0.97 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBurnishedBrownColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.63 green:0.48 blue:0.45 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBurntOrangeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.50 blue:0.29 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaBurntSiennaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.92 green:0.49 blue:0.36 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCadetBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.69 green:0.72 blue:0.78 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCanaryColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.98 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCaribbeanGreenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.11 green:0.83 blue:0.64 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCaribbeanGreenPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.42 green:0.85 blue:0.56 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCarnationPinkColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.67 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCedarChestColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.79 green:0.35 blue:0.29 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCeriseColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.87 green:0.27 blue:0.57 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCeruleanColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.11 green:0.67 blue:0.84 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCeruleanFrostColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.43 green:0.61 blue:0.76 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCherryColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.85 green:0.15 blue:0.28 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaChestnutColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.74 green:0.36 blue:0.35 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaChocolateColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.74 green:0.51 blue:0.38 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCinnamonSatinColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.80 green:0.38 blue:0.49 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCitrineColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.58 green:0.22 blue:0.04 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCoconutColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCopperColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.87 green:0.58 blue:0.46 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCopperPennyColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.68 green:0.44 blue:0.41 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCornflowerColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.60 green:0.81 blue:0.92 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCosmicCobaltColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.18 green:0.18 blue:0.53 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCottonCandyColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.74 blue:0.85 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCulturedPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.96 green:0.96 blue:0.96 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaCyberGrapeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.35 green:0.26 blue:0.49 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDaffodilColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.19 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDandelionColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.86 blue:0.43 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDeepSpaceSparkleColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.29 green:0.39 blue:0.42 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDenimColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.17 green:0.42 blue:0.77 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDenimBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.13 green:0.26 blue:0.71 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDesertSandColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.94 green:0.80 blue:0.72 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDingyDungeonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.77 green:0.19 blue:0.32 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaDirtColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.61 green:0.46 blue:0.33 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaEerieBlackColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.11 green:0.11 blue:0.11 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaEggplantColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.43 green:0.32 blue:0.38 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaElectricLimeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.81 green:1.00 blue:0.11 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaEmeraldColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.08 green:0.66 blue:0.54 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaEucalyptusColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.27 green:0.84 blue:0.66 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaFernColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.44 green:0.74 blue:0.47 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaFieryRoseColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.33 blue:0.44 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaForestGreenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.43 green:0.68 blue:0.51 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaFreshAirColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.65 green:0.91 blue:1.00 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaFrostbiteColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.91 green:0.21 blue:0.65 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaFuchsiaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.76 green:0.39 blue:0.77 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaFuzzyWuzzyColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.05 blue:0.40 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGargoyleGasColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.87 blue:0.27 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGiantsClubColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.69 green:0.36 blue:0.32 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGlossyGrapeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.67 green:0.57 blue:0.70 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGoldColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.91 green:0.78 blue:0.59 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGoldFusionColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.52 green:0.46 blue:0.31 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGoldenrodColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.85 blue:0.46 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGraniteGrayColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.40 green:0.40 blue:0.40 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGrannySmithAppleColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.66 green:0.89 blue:0.63 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGrapeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.44 green:0.18 blue:0.66 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGrayColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.58 green:0.57 blue:0.55 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGreenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.11 green:0.67 blue:0.47 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGreenBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.07 green:0.39 blue:0.71 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGreenLizardColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.65 green:0.96 blue:0.20 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGreenSheenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.43 green:0.68 blue:0.63 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaGreenYellowColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.94 green:0.91 blue:0.57 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaHeatWaveColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.48 blue:0.00 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaHotMagentaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.11 blue:0.81 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaIlluminatingEmeraldColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.19 green:0.57 blue:0.47 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaInchwormColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.70 green:0.93 blue:0.36 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaIndigoColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.36 green:0.46 blue:0.80 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaJadeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.27 green:0.60 blue:0.52 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaJasperColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.82 green:0.33 blue:0.25 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaJazzberryJamColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.79 green:0.22 blue:0.40 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaJellyBeanColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.85 green:0.38 blue:0.31 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaJungleGreenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.23 green:0.69 blue:0.56 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaKeyLimePearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.91 green:0.96 blue:0.55 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLapisLazuliColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.26 green:0.42 blue:0.73 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLaserLemonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.13 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLavenderColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.71 blue:0.84 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLeatherJacketColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.15 green:0.21 blue:0.16 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLemonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.22 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLemonGlacierColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:1.00 blue:0.00 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLemonYellowColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.96 blue:0.31 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLicoriceColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.10 green:0.07 blue:0.06 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLilacColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.86 green:0.57 blue:0.94 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLilacLusterColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.68 green:0.60 blue:0.67 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLimeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.70 green:0.95 blue:0.01 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaLumberColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.89 blue:0.80 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMacaroniCheeseColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.74 blue:0.53 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMagentaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.96 green:0.39 blue:0.69 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMagicMintColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.67 green:0.94 blue:0.82 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMagicPotionColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.27 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMahoganyColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.80 green:0.29 blue:0.30 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMaizeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.93 green:0.82 blue:0.61 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMalachiteColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.27 green:0.58 blue:0.59 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaManateeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.59 green:0.60 blue:0.67 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMandarinPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.95 green:0.48 blue:0.28 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMangoTangoColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.51 blue:0.26 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMaroonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.78 green:0.22 blue:0.35 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMauvelousColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.94 green:0.60 blue:0.67 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMelonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.74 blue:0.71 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMetallicSeaweedColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.04 green:0.49 blue:0.55 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMetallicSunburstColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.61 green:0.49 blue:0.22 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMidnightBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.10 green:0.28 blue:0.46 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMidnightPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.44 green:0.15 blue:0.44 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMistyMossColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.73 green:0.71 blue:0.47 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMoonstoneColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.23 green:0.66 blue:0.76 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMountainMeadowColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.19 green:0.73 blue:0.56 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMulberryColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.77 green:0.29 blue:0.55 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMummysTombColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.51 green:0.56 blue:0.52 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMysticMaroonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.68 green:0.26 blue:0.47 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaMysticPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.84 green:0.32 blue:0.51 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaNavyBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.10 green:0.45 blue:0.82 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaNeonCarrotColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.64 blue:0.26 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaNewCarColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.13 green:0.31 blue:0.78 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOceanBluePearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.31 green:0.26 blue:0.71 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOceanGreenPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.28 green:0.75 blue:0.57 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOgreOdorColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.32 blue:0.25 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOliveGreenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.73 green:0.72 blue:0.42 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOnyxColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.21 green:0.22 blue:0.22 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOrangeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.46 blue:0.22 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOrangeRedColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.17 blue:0.17 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOrangeSodaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.98 green:0.36 blue:0.24 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOrangeYellowColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.97 green:0.84 blue:0.41 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOrchidColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.90 green:0.66 blue:0.84 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOrchidPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.48 green:0.26 blue:0.35 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOuterSpaceColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.25 green:0.29 blue:0.30 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaOutrageousOrangeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.43 blue:0.29 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPacificBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.11 green:0.66 blue:0.79 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPeachColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.81 blue:0.67 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPearlyPurpleColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.72 green:0.41 blue:0.64 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPeridotColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.67 green:0.68 blue:0.28 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPeriwinkleColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.77 green:0.82 blue:0.90 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPewterBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.55 green:0.66 blue:0.72 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPiggyPinkColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.87 blue:0.90 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPineColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.27 green:0.64 blue:0.49 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPineGreenColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.08 green:0.50 blue:0.47 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPinkFlamingoColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.45 blue:0.99 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPinkPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.69 green:0.44 blue:0.50 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPinkSherbertColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.97 green:0.56 blue:0.65 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPixiePowderColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.22 green:0.07 blue:0.52 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPlumColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.56 green:0.27 blue:0.52 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPlumpPurpleColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.35 green:0.27 blue:0.70 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPolishedPineColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.36 green:0.64 blue:0.58 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPrincessPerfumeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.52 blue:0.81 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPurpleHeartColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.45 green:0.26 blue:0.78 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPurpleMountainsMajestyColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.62 green:0.51 blue:0.73 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPurplePizzazzColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.31 blue:0.85 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaPurplePlumColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.61 green:0.32 blue:0.71 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaQuickSilverColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.65 green:0.65 blue:0.65 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRadicalRedColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.29 blue:0.42 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRawSiennaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.84 green:0.54 blue:0.35 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRawUmberColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.44 green:0.29 blue:0.14 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRazzleDazzleRoseColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.28 blue:0.82 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRazzmatazzColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.89 green:0.15 blue:0.42 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRazzmicBerryColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.55 green:0.31 blue:0.52 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRedColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.93 green:0.13 blue:0.30 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRedOrangeColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.33 blue:0.29 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRedSalsaColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.23 blue:0.29 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRedVioletColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.75 green:0.27 blue:0.56 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRobinsEggBlueColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.12 green:0.81 blue:0.80 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRoseColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.31 blue:0.31 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRoseDustColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.62 green:0.37 blue:0.44 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRosePearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.94 green:0.22 blue:0.40 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRoseQuartzColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.74 green:0.33 blue:0.61 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRoyalPurpleColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.47 green:0.32 blue:0.66 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRubyColor
++ (instancetype)crayolaGreenLizardColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.67 green:0.25 blue:0.41 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaRustyRedColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.85 green:0.17 blue:0.26 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaSalmonColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.61 blue:0.67 alpha:1.0];
-	}
-
-	return color;
-}
-
-+ (UIColor *)crayolaSalmonPearlColor
-{
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.95 green:0.27 blue:0.29 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.65 green:0.96 blue:0.20 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSapphireColor
++ (instancetype)crayolaGreenSheenColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.18 green:0.36 blue:0.63 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.43 green:0.68 blue:0.63 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSasquatchSocksColor
++ (instancetype)crayolaGreenYellowColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.27 blue:0.51 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.94 green:0.91 blue:0.57 alpha:1.0];
 }
 
-+ (UIColor *)crayolaScarletColor
++ (instancetype)crayolaHeatWaveColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.16 blue:0.28 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:1.00 green:0.48 blue:0.00 alpha:1.0];
 }
 
-+ (UIColor *)crayolaScreaminGreenColor
++ (instancetype)crayolaHotMagentaColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.46 green:1.00 blue:0.48 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:1.00 green:0.11 blue:0.81 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSeaGreenColor
++ (instancetype)crayolaIlluminatingEmeraldColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.62 green:0.89 blue:0.75 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.19 green:0.57 blue:0.47 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSeaSerpentColor
++ (instancetype)crayolaInchwormColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.29 green:0.78 blue:0.81 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.70 green:0.93 blue:0.36 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSepiaColor
++ (instancetype)crayolaIndigoColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.65 green:0.41 blue:0.31 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.36 green:0.46 blue:0.80 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShadowColor
++ (instancetype)crayolaJadeColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.54 green:0.47 blue:0.36 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.27 green:0.60 blue:0.52 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShadowBlueColor
++ (instancetype)crayolaJasperColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.47 green:0.55 blue:0.65 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.82 green:0.33 blue:0.25 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShampooColor
++ (instancetype)crayolaJazzberryJamColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.81 blue:0.95 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.79 green:0.22 blue:0.40 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShamrockColor
++ (instancetype)crayolaJellyBeanColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.27 green:0.81 blue:0.64 alpha:1.0];
-	}
-
-	return color;
+	return [[self class] crayolaColorWithRed:0.85 green:0.38 blue:0.31 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSheenGreenColor
++ (instancetype)crayolaJungleGreenColor
 {
-	static UIColor *color = nil;
-
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.56 green:0.83 blue:0.00 alpha:1.0];
-	}
+	return [[self class] crayolaColorWithRed:0.23 green:0.69 blue:0.56 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaKeyLimePearlColor
+{
+	return [[self class] crayolaColorWithRed:0.91 green:0.96 blue:0.55 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShimmeringBlushColor
++ (instancetype)crayolaLapisLazuliColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.26 green:0.42 blue:0.73 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.85 green:0.53 blue:0.58 alpha:1.0];
-	}
++ (instancetype)crayolaLaserLemonColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:1.00 blue:0.13 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaLavenderColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.71 blue:0.84 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShinyShamrockColor
++ (instancetype)crayolaLeatherJacketColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.15 green:0.21 blue:0.16 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.37 green:0.65 blue:0.47 alpha:1.0];
-	}
++ (instancetype)crayolaLemonColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:1.00 blue:0.22 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaLemonGlacierColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:1.00 blue:0.00 alpha:1.0];
 }
 
-+ (UIColor *)crayolaShockingPinkColor
++ (instancetype)crayolaLemonYellowColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.96 blue:0.31 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.98 green:0.49 blue:0.99 alpha:1.0];
-	}
++ (instancetype)crayolaLicoriceColor
+{
+	return [[self class] crayolaColorWithRed:0.10 green:0.07 blue:0.06 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaLilacColor
+{
+	return [[self class] crayolaColorWithRed:0.86 green:0.57 blue:0.94 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSilverColor
++ (instancetype)crayolaLilacLusterColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.68 green:0.60 blue:0.67 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.80 green:0.77 blue:0.76 alpha:1.0];
-	}
++ (instancetype)crayolaLimeColor
+{
+	return [[self class] crayolaColorWithRed:0.70 green:0.95 blue:0.01 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaLumberColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.89 blue:0.80 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSizzlingRedColor
++ (instancetype)crayolaMacaroniCheeseColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.74 blue:0.53 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.22 blue:0.33 alpha:1.0];
-	}
++ (instancetype)crayolaMagentaColor
+{
+	return [[self class] crayolaColorWithRed:0.96 green:0.39 blue:0.69 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMagicMintColor
+{
+	return [[self class] crayolaColorWithRed:0.67 green:0.94 blue:0.82 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSizzlingSunriseColor
++ (instancetype)crayolaMagicPotionColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.00 green:0.06 blue:0.27 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.86 blue:0.00 alpha:1.0];
-	}
++ (instancetype)crayolaMahoganyColor
+{
+	return [[self class] crayolaColorWithRed:0.80 green:0.29 blue:0.30 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMaizeColor
+{
+	return [[self class] crayolaColorWithRed:0.93 green:0.82 blue:0.61 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSkyBlueColor
++ (instancetype)crayolaMalachiteColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.27 green:0.58 blue:0.59 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.50 green:0.85 blue:0.92 alpha:1.0];
-	}
++ (instancetype)crayolaManateeColor
+{
+	return [[self class] crayolaColorWithRed:0.59 green:0.60 blue:0.67 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMandarinPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.95 green:0.48 blue:0.28 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSlimyGreenColor
++ (instancetype)crayolaMangoTangoColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.51 blue:0.26 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.16 green:0.59 blue:0.09 alpha:1.0];
-	}
++ (instancetype)crayolaMaroonColor
+{
+	return [[self class] crayolaColorWithRed:0.78 green:0.22 blue:0.35 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMauvelousColor
+{
+	return [[self class] crayolaColorWithRed:0.94 green:0.60 blue:0.67 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSmashedPumpkinColor
++ (instancetype)crayolaMelonColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.74 blue:0.71 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.43 blue:0.23 alpha:1.0];
-	}
++ (instancetype)crayolaMetallicSeaweedColor
+{
+	return [[self class] crayolaColorWithRed:0.04 green:0.49 blue:0.55 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMetallicSunburstColor
+{
+	return [[self class] crayolaColorWithRed:0.61 green:0.49 blue:0.22 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSmokeColor
++ (instancetype)crayolaMidnightBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.10 green:0.28 blue:0.46 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.45 green:0.51 blue:0.46 alpha:1.0];
-	}
++ (instancetype)crayolaMidnightPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.44 green:0.15 blue:0.44 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMistyMossColor
+{
+	return [[self class] crayolaColorWithRed:0.73 green:0.71 blue:0.47 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSmokeyTopazColor
++ (instancetype)crayolaMoonstoneColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.23 green:0.66 blue:0.76 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.51 green:0.16 blue:0.05 alpha:1.0];
-	}
++ (instancetype)crayolaMountainMeadowColor
+{
+	return [[self class] crayolaColorWithRed:0.19 green:0.73 blue:0.56 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMulberryColor
+{
+	return [[self class] crayolaColorWithRed:0.77 green:0.29 blue:0.55 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSoapColor
++ (instancetype)crayolaMummysTombColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.51 green:0.56 blue:0.52 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.81 green:0.78 blue:0.94 alpha:1.0];
-	}
++ (instancetype)crayolaMysticMaroonColor
+{
+	return [[self class] crayolaColorWithRed:0.68 green:0.26 blue:0.47 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaMysticPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.84 green:0.32 blue:0.51 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSonicSilverColor
++ (instancetype)crayolaNavyBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.10 green:0.45 blue:0.82 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.46 green:0.46 blue:0.46 alpha:1.0];
-	}
++ (instancetype)crayolaNeonCarrotColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.64 blue:0.26 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaNewCarColor
+{
+	return [[self class] crayolaColorWithRed:0.13 green:0.31 blue:0.78 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSpringFrostColor
++ (instancetype)crayolaOceanBluePearlColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.31 green:0.26 blue:0.71 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.53 green:1.00 blue:0.16 alpha:1.0];
-	}
++ (instancetype)crayolaOceanGreenPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.28 green:0.75 blue:0.57 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaOgreOdorColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.32 blue:0.25 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSpringGreenColor
++ (instancetype)crayolaOliveGreenColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.73 green:0.72 blue:0.42 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.93 green:0.92 blue:0.75 alpha:1.0];
-	}
++ (instancetype)crayolaOnyxColor
+{
+	return [[self class] crayolaColorWithRed:0.21 green:0.22 blue:0.22 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaOrangeColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.46 blue:0.22 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSteelBlueColor
++ (instancetype)crayolaOrangeRedColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.17 blue:0.17 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.51 blue:0.67 alpha:1.0];
-	}
++ (instancetype)crayolaOrangeSodaColor
+{
+	return [[self class] crayolaColorWithRed:0.98 green:0.36 blue:0.24 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaOrangeYellowColor
+{
+	return [[self class] crayolaColorWithRed:0.97 green:0.84 blue:0.41 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSteelTealColor
++ (instancetype)crayolaOrchidColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.90 green:0.66 blue:0.84 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.37 green:0.54 blue:0.55 alpha:1.0];
-	}
++ (instancetype)crayolaOrchidPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.48 green:0.26 blue:0.35 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaOuterSpaceColor
+{
+	return [[self class] crayolaColorWithRed:0.25 green:0.29 blue:0.30 alpha:1.0];
 }
 
-+ (UIColor *)crayolaStrawberryColor
++ (instancetype)crayolaOutrageousOrangeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.43 blue:0.29 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.35 blue:0.55 alpha:1.0];
-	}
++ (instancetype)crayolaPacificBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.11 green:0.66 blue:0.79 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPeachColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.81 blue:0.67 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSugarPlumColor
++ (instancetype)crayolaPearlyPurpleColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.72 green:0.41 blue:0.64 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.57 green:0.31 blue:0.46 alpha:1.0];
-	}
++ (instancetype)crayolaPeridotColor
+{
+	return [[self class] crayolaColorWithRed:0.67 green:0.68 blue:0.28 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPeriwinkleColor
+{
+	return [[self class] crayolaColorWithRed:0.77 green:0.82 blue:0.90 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSunburntCyclopsColor
++ (instancetype)crayolaPewterBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.55 green:0.66 blue:0.72 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.25 blue:0.30 alpha:1.0];
-	}
++ (instancetype)crayolaPiggyPinkColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.87 blue:0.90 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPineColor
+{
+	return [[self class] crayolaColorWithRed:0.27 green:0.64 blue:0.49 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSunglowColor
++ (instancetype)crayolaPineGreenColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.08 green:0.50 blue:0.47 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.81 blue:0.28 alpha:1.0];
-	}
++ (instancetype)crayolaPinkFlamingoColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.45 blue:0.99 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPinkPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.69 green:0.44 blue:0.50 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSunnyPearlColor
++ (instancetype)crayolaPinkSherbertColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.97 green:0.56 blue:0.65 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.95 green:0.95 blue:0.48 alpha:1.0];
-	}
++ (instancetype)crayolaPixiePowderColor
+{
+	return [[self class] crayolaColorWithRed:0.22 green:0.07 blue:0.52 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPlumColor
+{
+	return [[self class] crayolaColorWithRed:0.56 green:0.27 blue:0.52 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSunsetOrangeColor
++ (instancetype)crayolaPlumpPurpleColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.35 green:0.27 blue:0.70 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.37 blue:0.33 alpha:1.0];
-	}
++ (instancetype)crayolaPolishedPineColor
+{
+	return [[self class] crayolaColorWithRed:0.36 green:0.64 blue:0.58 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPrincessPerfumeColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.52 blue:0.81 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSunsetPearlColor
++ (instancetype)crayolaPurpleHeartColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.45 green:0.26 blue:0.78 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.95 green:0.80 blue:0.47 alpha:1.0];
-	}
++ (instancetype)crayolaPurpleMountainsMajestyColor
+{
+	return [[self class] crayolaColorWithRed:0.62 green:0.51 blue:0.73 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaPurplePizzazzColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.31 blue:0.85 alpha:1.0];
 }
 
-+ (UIColor *)crayolaSweetBrownColor
++ (instancetype)crayolaPurplePlumColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.61 green:0.32 blue:0.71 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.66 green:0.22 blue:0.19 alpha:1.0];
-	}
++ (instancetype)crayolaQuickSilverColor
+{
+	return [[self class] crayolaColorWithRed:0.65 green:0.65 blue:0.65 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaRadicalRedColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.29 blue:0.42 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTanColor
++ (instancetype)crayolaRawSiennaColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.84 green:0.54 blue:0.35 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.98 green:0.65 blue:0.42 alpha:1.0];
-	}
++ (instancetype)crayolaRawUmberColor
+{
+	return [[self class] crayolaColorWithRed:0.44 green:0.29 blue:0.14 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaRazzleDazzleRoseColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.28 blue:0.82 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTartOrangeColor
++ (instancetype)crayolaRazzmatazzColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.89 green:0.15 blue:0.42 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.98 green:0.30 blue:0.27 alpha:1.0];
-	}
++ (instancetype)crayolaRazzmicBerryColor
+{
+	return [[self class] crayolaColorWithRed:0.55 green:0.31 blue:0.52 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaRedColor
+{
+	return [[self class] crayolaColorWithRed:0.93 green:0.13 blue:0.30 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTealBlueColor
++ (instancetype)crayolaRedOrangeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.33 blue:0.29 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.09 green:0.65 blue:0.71 alpha:1.0];
-	}
++ (instancetype)crayolaRedSalsaColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.23 blue:0.29 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaRedVioletColor
+{
+	return [[self class] crayolaColorWithRed:0.75 green:0.27 blue:0.56 alpha:1.0];
 }
 
-+ (UIColor *)crayolaThistleColor
++ (instancetype)crayolaRobinsEggBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.12 green:0.81 blue:0.80 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.92 green:0.78 blue:0.87 alpha:1.0];
-	}
++ (instancetype)crayolaRoseColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.31 blue:0.31 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaRoseDustColor
+{
+	return [[self class] crayolaColorWithRed:0.62 green:0.37 blue:0.44 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTickleMePinkColor
++ (instancetype)crayolaRosePearlColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.94 green:0.22 blue:0.40 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.54 blue:0.67 alpha:1.0];
-	}
++ (instancetype)crayolaRoseQuartzColor
+{
+	return [[self class] crayolaColorWithRed:0.74 green:0.33 blue:0.61 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaRoyalPurpleColor
+{
+	return [[self class] crayolaColorWithRed:0.47 green:0.32 blue:0.66 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTigersEyeColor
++ (instancetype)crayolaRubyColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.67 green:0.25 blue:0.41 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.71 green:0.41 blue:0.09 alpha:1.0];
-	}
++ (instancetype)crayolaRustyRedColor
+{
+	return [[self class] crayolaColorWithRed:0.85 green:0.17 blue:0.26 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSalmonColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.61 blue:0.67 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTimberwolfColor
++ (instancetype)crayolaSalmonPearlColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.95 green:0.27 blue:0.29 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.86 green:0.84 blue:0.82 alpha:1.0];
-	}
++ (instancetype)crayolaSapphireColor
+{
+	return [[self class] crayolaColorWithRed:0.18 green:0.36 blue:0.63 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSasquatchSocksColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.27 blue:0.51 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTropicalRainForestColor
++ (instancetype)crayolaScarletColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.16 blue:0.28 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.09 green:0.50 blue:0.43 alpha:1.0];
-	}
++ (instancetype)crayolaScreaminGreenColor
+{
+	return [[self class] crayolaColorWithRed:0.46 green:1.00 blue:0.48 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSeaGreenColor
+{
+	return [[self class] crayolaColorWithRed:0.62 green:0.89 blue:0.75 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTulipColor
++ (instancetype)crayolaSeaSerpentColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.29 green:0.78 blue:0.81 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.53 blue:0.55 alpha:1.0];
-	}
++ (instancetype)crayolaSepiaColor
+{
+	return [[self class] crayolaColorWithRed:0.65 green:0.41 blue:0.31 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaShadowColor
+{
+	return [[self class] crayolaColorWithRed:0.54 green:0.47 blue:0.36 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTumbleweedColor
++ (instancetype)crayolaShadowBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.47 green:0.55 blue:0.65 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.87 green:0.67 blue:0.53 alpha:1.0];
-	}
++ (instancetype)crayolaShampooColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.81 blue:0.95 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaShamrockColor
+{
+	return [[self class] crayolaColorWithRed:0.27 green:0.81 blue:0.64 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTurquoiseBlueColor
++ (instancetype)crayolaSheenGreenColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.56 green:0.83 blue:0.00 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.47 green:0.87 blue:0.91 alpha:1.0];
-	}
++ (instancetype)crayolaShimmeringBlushColor
+{
+	return [[self class] crayolaColorWithRed:0.85 green:0.53 blue:0.58 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaShinyShamrockColor
+{
+	return [[self class] crayolaColorWithRed:0.37 green:0.65 blue:0.47 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTurquoisePearlColor
++ (instancetype)crayolaShockingPinkColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.98 green:0.49 blue:0.99 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.23 green:0.74 blue:0.82 alpha:1.0];
-	}
++ (instancetype)crayolaSilverColor
+{
+	return [[self class] crayolaColorWithRed:0.80 green:0.77 blue:0.76 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSizzlingRedColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.22 blue:0.33 alpha:1.0];
 }
 
-+ (UIColor *)crayolaTwilightLavenderColor
++ (instancetype)crayolaSizzlingSunriseColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.86 blue:0.00 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.54 green:0.29 blue:0.42 alpha:1.0];
-	}
++ (instancetype)crayolaSkyBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.50 green:0.85 blue:0.92 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSlimyGreenColor
+{
+	return [[self class] crayolaColorWithRed:0.16 green:0.59 blue:0.09 alpha:1.0];
 }
 
-+ (UIColor *)crayolaUnmellowYellowColor
++ (instancetype)crayolaSmashedPumpkinColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.43 blue:0.23 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.96 alpha:1.0];
-	}
++ (instancetype)crayolaSmokeColor
+{
+	return [[self class] crayolaColorWithRed:0.45 green:0.51 blue:0.46 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSmokeyTopazColor
+{
+	return [[self class] crayolaColorWithRed:0.51 green:0.16 blue:0.05 alpha:1.0];
 }
 
-+ (UIColor *)crayolaVioletBlueColor
++ (instancetype)crayolaSoapColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.81 green:0.78 blue:0.94 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.20 green:0.29 blue:0.70 alpha:1.0];
-	}
++ (instancetype)crayolaSonicSilverColor
+{
+	return [[self class] crayolaColorWithRed:0.46 green:0.46 blue:0.46 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSpringFrostColor
+{
+	return [[self class] crayolaColorWithRed:0.53 green:1.00 blue:0.16 alpha:1.0];
 }
 
-+ (UIColor *)crayolaVioletPurpleColor
++ (instancetype)crayolaSpringGreenColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.93 green:0.92 blue:0.75 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.57 green:0.43 blue:0.68 alpha:1.0];
-	}
++ (instancetype)crayolaSteelBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.00 green:0.51 blue:0.67 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSteelTealColor
+{
+	return [[self class] crayolaColorWithRed:0.37 green:0.54 blue:0.55 alpha:1.0];
 }
 
-+ (UIColor *)crayolaVioletRedColor
++ (instancetype)crayolaStrawberryColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.35 blue:0.55 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.97 green:0.33 blue:0.58 alpha:1.0];
-	}
++ (instancetype)crayolaSugarPlumColor
+{
+	return [[self class] crayolaColorWithRed:0.57 green:0.31 blue:0.46 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSunburntCyclopsColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.25 blue:0.30 alpha:1.0];
 }
 
-+ (UIColor *)crayolaVividTangerineColor
++ (instancetype)crayolaSunglowColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:0.81 blue:0.28 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.63 blue:0.54 alpha:1.0];
-	}
++ (instancetype)crayolaSunnyPearlColor
+{
+	return [[self class] crayolaColorWithRed:0.95 green:0.95 blue:0.48 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaSunsetOrangeColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.37 blue:0.33 alpha:1.0];
 }
 
-+ (UIColor *)crayolaVividVioletColor
++ (instancetype)crayolaSunsetPearlColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.95 green:0.80 blue:0.47 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.56 green:0.31 blue:0.62 alpha:1.0];
-	}
++ (instancetype)crayolaSweetBrownColor
+{
+	return [[self class] crayolaColorWithRed:0.66 green:0.22 blue:0.19 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaTanColor
+{
+	return [[self class] crayolaColorWithRed:0.98 green:0.65 blue:0.42 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWhiteColor
++ (instancetype)crayolaTartOrangeColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.98 green:0.30 blue:0.27 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
-	}
++ (instancetype)crayolaTealBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.09 green:0.65 blue:0.71 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaThistleColor
+{
+	return [[self class] crayolaColorWithRed:0.92 green:0.78 blue:0.87 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWildBlueYonderColor
++ (instancetype)crayolaTickleMePinkColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.54 blue:0.67 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.64 green:0.68 blue:0.82 alpha:1.0];
-	}
++ (instancetype)crayolaTigersEyeColor
+{
+	return [[self class] crayolaColorWithRed:0.71 green:0.41 blue:0.09 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaTimberwolfColor
+{
+	return [[self class] crayolaColorWithRed:0.86 green:0.84 blue:0.82 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWildStrawberryColor
++ (instancetype)crayolaTropicalRainForestColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.09 green:0.50 blue:0.43 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.26 blue:0.64 alpha:1.0];
-	}
++ (instancetype)crayolaTulipColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.53 blue:0.55 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaTumbleweedColor
+{
+	return [[self class] crayolaColorWithRed:0.87 green:0.67 blue:0.53 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWildWatermelonColor
++ (instancetype)crayolaTurquoiseBlueColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.47 green:0.87 blue:0.91 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.42 blue:0.52 alpha:1.0];
-	}
++ (instancetype)crayolaTurquoisePearlColor
+{
+	return [[self class] crayolaColorWithRed:0.23 green:0.74 blue:0.82 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaTwilightLavenderColor
+{
+	return [[self class] crayolaColorWithRed:0.54 green:0.29 blue:0.42 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWinterSkyColor
++ (instancetype)crayolaUnmellowYellowColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.00 green:0.06 blue:0.96 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:1.00 green:0.00 blue:0.49 alpha:1.0];
-	}
++ (instancetype)crayolaVioletBlueColor
+{
+	return [[self class] crayolaColorWithRed:0.20 green:0.29 blue:0.70 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaVioletPurpleColor
+{
+	return [[self class] crayolaColorWithRed:0.57 green:0.43 blue:0.68 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWinterWizardColor
++ (instancetype)crayolaVioletRedColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.97 green:0.33 blue:0.58 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.63 green:0.90 blue:1.00 alpha:1.0];
-	}
++ (instancetype)crayolaVividTangerineColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.63 blue:0.54 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaVividVioletColor
+{
+	return [[self class] crayolaColorWithRed:0.56 green:0.31 blue:0.62 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWintergreenDreamColor
++ (instancetype)crayolaWhiteColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.34 green:0.53 blue:0.49 alpha:1.0];
-	}
++ (instancetype)crayolaWildBlueYonderColor
+{
+	return [[self class] crayolaColorWithRed:0.64 green:0.68 blue:0.82 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaWildStrawberryColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.26 blue:0.64 alpha:1.0];
 }
 
-+ (UIColor *)crayolaWisteriaColor
++ (instancetype)crayolaWildWatermelonColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.99 green:0.42 blue:0.52 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.80 green:0.64 blue:0.87 alpha:1.0];
-	}
++ (instancetype)crayolaWinterSkyColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.00 blue:0.49 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaWinterWizardColor
+{
+	return [[self class] crayolaColorWithRed:0.63 green:0.90 blue:1.00 alpha:1.0];
 }
 
-+ (UIColor *)crayolaYellowColor
++ (instancetype)crayolaWintergreenDreamColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.34 green:0.53 blue:0.49 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.99 green:0.91 blue:0.51 alpha:1.0];
-	}
++ (instancetype)crayolaWisteriaColor
+{
+	return [[self class] crayolaColorWithRed:0.80 green:0.64 blue:0.87 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaYellowColor
+{
+	return [[self class] crayolaColorWithRed:0.99 green:0.91 blue:0.51 alpha:1.0];
 }
 
-+ (UIColor *)crayolaYellowGreenColor
++ (instancetype)crayolaYellowGreenColor
 {
-	static UIColor *color = nil;
+	return [[self class] crayolaColorWithRed:0.77 green:0.89 blue:0.52 alpha:1.0];
+}
 
-	if(!color)
-	{
-		color = [UIColor colorWithRed:0.77 green:0.89 blue:0.52 alpha:1.0];
-	}
++ (instancetype)crayolaYellowOrangeColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.71 blue:0.33 alpha:1.0];
+}
 
-	return color;
++ (instancetype)crayolaYellowSunshineColor
+{
+	return [[self class] crayolaColorWithRed:1.00 green:0.97 blue:0.00 alpha:1.0];
 }
 
-+ (UIColor *)crayolaYellowOrangeColor
++ (instancetype)crayolaColorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha
 {
-	static UIColor *color = nil;
+	static NSCache *cache = nil;
 
-	if(!color)
+	if(!cache)
 	{
-		color = [UIColor colorWithRed:1.00 green:0.71 blue:0.33 alpha:1.0];
+		cache = [NSCache new];
+
+		[cache setName:@"UIColor+Crayola"];
 	}
 
-	return color;
-}
+	NSString *cacheKey = [[self class] cacheKeyWithRed:red green:green blue:blue alpha:alpha];
 
-+ (UIColor *)crayolaYellowSunshineColor
-{
-	static UIColor *color = nil;
+	UIColor *color = [cache objectForKey:cacheKey];
 
 	if(!color)
 	{
-		color = [UIColor colorWithRed:1.00 green:0.97 blue:0.00 alpha:1.0];
+		color = [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+
+		[cache setObject:color forKey:cacheKey];
 	}
 
 	return color;
+}
+
++ (NSString *)cacheKeyWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha
+{
+	return [NSString stringWithFormat:@"%.2f%.2f%.2f%.2f", red, green, blue, alpha];
 }
 
 @end

@@ -58,6 +58,9 @@ $markdown_file_meta .= "List of " . count($colors) . " colors sourced from: <a h
 $markdown_file_meta .= "<table>\n\n";
 
 $markdown_file_footer_meta .= "</table>\n\n";
+$markdown_file_footer_meta .= "===============\n\n";
+$markdown_file_footer_meta .= "Contributors:\n";
+$markdown_file_footer_meta .= "<a href=\"https://github.com/Abizern\" title=\"Abizern\">Abizern</a>\n";
 
 $header_file_handle = fopen($header_filename, "w+");
 $main_file_handle = fopen($main_filename, "w+");
@@ -74,16 +77,11 @@ foreach($colors as $key => $value)
 
 	generate_image_from_hex($value, $key, $image_width, $image_height);
 
-	$header_code = "+ (UIColor *)$name;\n";
+	$header_code = "+ (instancetype)$name;\n";
 
-	$main_code = "+ (UIColor *)$name\n";
+	$main_code = "+ (instancetype)$name\n";
 	$main_code .= "{\n";
-	$main_code .= "\tstatic UIColor *color = nil;\n\n";
-	$main_code .= "\tif(!color)\n";
-	$main_code .= "\t{\n";
-	$main_code .= "\t\tcolor = $color;\n";
-	$main_code .= "\t}\n\n";
-	$main_code .= "\treturn color;\n";
+	$main_code .= "\treturn " . crayola_color_from_hex($key) . ";\n";
 	$main_code .= "}\n\n";
 
 	$markdown_code = uicolor_table_row($value, $key, $image_width, $image_height, $github_url . "images/");
@@ -92,6 +90,31 @@ foreach($colors as $key => $value)
 	fwrite($main_file_handle, $main_code);
 	fwrite($markdown_file_handle, $markdown_code);
 }
+
+
+$main_code = "+ (instancetype)crayolaColorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha\n";
+$main_code .= "{\n";
+$main_code .= "\tstatic NSCache *cache = nil;\n\n";
+$main_code .= "\tif(!cache)\n";
+$main_code .= "\t{\n";
+$main_code .= "\t\tcache = [NSCache new];\n\n";
+$main_code .= "\t\t[cache setName:@\"UIColor+Crayola\"];\n";
+$main_code .= "\t}\n\n";
+$main_code .= "\tNSString *cacheKey = [[self class] cacheKeyWithRed:red green:green blue:blue alpha:alpha];\n\n";
+$main_code .= "\tUIColor *color = [cache objectForKey:cacheKey];\n\n";
+$main_code .= "\tif(!color)\n";
+$main_code .= "\t{\n";
+$main_code .= "\t\tcolor = [UIColor colorWithRed:red green:green blue:blue alpha:alpha];\n\n";
+$main_code .= "\t\t[cache setObject:color forKey:cacheKey];\n";
+$main_code .= "\t}\n\n";
+$main_code .= "\treturn color;\n";
+$main_code .= "}\n\n";
+$main_code .= "+ (NSString *)cacheKeyWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha\n";
+$main_code .= "{\n";
+$main_code .= "\treturn [NSString stringWithFormat:@\"%.2f%.2f%.2f%.2f\", red, green, blue, alpha];\n";
+$main_code .= "}\n\n";
+
+fwrite($main_file_handle, $main_code);
 
 fwrite($header_file_handle, $header_file_footer_meta);
 fwrite($main_file_handle, $main_file_footer_meta);

@@ -25,6 +25,21 @@ function uicolor_from_hex($hex)
 	return "[UIColor colorWithRed:" . number_format($red_1, 2) . " green:" . number_format($green_1, 2) . " blue:" . number_format($blue_1, 2) . " alpha:1.0]";
 }
 
+function crayola_color_from_hex($hex)
+{
+	$dec = hexdec($hex);
+	
+	$red_255 = 0xFF & $dec >> 0x10;
+	$green_255 = 0xFF & $dec >> 0x8;
+	$blue_255 = 0xFF & $dec;
+
+	$red_1 = ((1 / 255) * $red_255);
+	$green_1 = ((1 / 255) * $green_255);
+	$blue_1 = ((1 / 255) * $blue_255);
+
+	return "[[self class] crayolaColorWithRed:" . number_format($red_1, 2) . " green:" . number_format($green_1, 2) . " blue:" . number_format($blue_1, 2) . " alpha:1.0]";
+}
+
 function uicolor_name($name)
 {
 	return "crayola" . str_replace(" ", "", ucwords($name)) . "Color";

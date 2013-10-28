@@ -30,16 +30,40 @@ function uicolor_name($name)
 	return "crayola" . str_replace(" ", "", ucwords($name)) . "Color";
 }
 
-function uicolor_table_row($name, $hex)
+function uicolor_table_row($name, $hex, $width, $height, $image_url)
 {
-	$table_row = "<tr>\n\n";
-	$table_row .= "<td style=\"background-color: #" . $hex . "\">&nbsp;</td>\n";
-	$table_row .= "<td>$name</td>\n";
-	$table_row .= "<td>[UIColor " . uicolor_name($name) . "]</td>\n";
-	$table_row .= "<td>" . uicolor_from_hex($hex) . "</td>\n";
-	$table_row .= "</tr>\n\n";
+	$table_row = "\t<tr>\n";
+	$table_row .= "\t\t<td><img src=\"$image_url" . image_filename($name) . "\" alt=\"" . uicolor_name($name) . "\" width=\"$width\" height=\"$height\" /></td>\n";
+	$table_row .= "\t\t<td>$name</td>\n";
+	$table_row .= "\t\t<td>[UIColor " . uicolor_name($name) . "]</td>\n";
+	$table_row .= "\t\t<td>" . uicolor_from_hex($hex) . "</td>\n";
+	$table_row .= "\t</tr>\n\n";
 
 	return $table_row;
+}
+
+function generate_image_from_hex($name, $hex, $width, $height)
+{
+	$path = "../images/" . image_filename($name);
+
+	$dec = hexdec($hex);
+	
+	$red_255 = 0xFF & $dec >> 0x10;
+	$green_255 = 0xFF & $dec >> 0x8;
+	$blue_255 = 0xFF & $dec;
+
+	$image = imagecreatetruecolor($width, $height);
+
+	$background_color = imagecolorallocate($image, $red_255, $green_255, $blue_255);
+
+	imagefilledrectangle($image, 0, 0, $width, $height, $background_color);
+
+	imagepng($image, $path);
+}
+
+function image_filename($name)
+{
+	return str_replace(" ", "", ucwords($name)) . ".png";
 }
 
 $colors = array("efdecd" => "Almond",

@@ -16,6 +16,11 @@ $header_filename = "UIColor+Crayola.h";
 $main_filename = "UIColor+Crayola.m";
 $markdown_filename = "README.md";
 
+$image_width = 32;
+$image_height = 32;
+
+$github_url = "https://github.com/CaptainRedmuff/UIColor-Crayola/blob/master/";
+
 $header_file_meta = "//\n";
 $header_file_meta .= "//*******\n";
 $header_file_meta .= "//\n";
@@ -52,7 +57,7 @@ $markdown_file_meta .= "UIColor category - because everybody loves wax crayons!\
 $markdown_file_meta .= "List of " . count($colors) . " colors sourced from: <a href=\"http://en.wikipedia.org/wiki/Crayola_colors\" title=\"Crayola Colors\">List of Crayola crayon colors</a>\n\n";
 $markdown_file_meta .= "<table>\n\n";
 
-$markdown_file_footer_meta . "</table>\n\n";
+$markdown_file_footer_meta .= "</table>\n\n";
 
 $header_file_handle = fopen($header_filename, "w+");
 $main_file_handle = fopen($main_filename, "w+");
@@ -67,6 +72,8 @@ foreach($colors as $key => $value)
 	$name = uicolor_name($value);
 	$color = uicolor_from_hex($key);
 
+	generate_image_from_hex($value, $key, $image_width, $image_height);
+
 	$header_code = "+ (UIColor *)$name;\n";
 
 	$main_code = "+ (UIColor *)$name\n";
@@ -74,7 +81,7 @@ foreach($colors as $key => $value)
 	$main_code .= "\treturn $color;\n";
 	$main_code .= "}\n\n";
 
-	$markdown_code = uicolor_table_row($value, $key);
+	$markdown_code = uicolor_table_row($value, $key, $image_width, $image_height, $github_url . "images/");
 
 	fwrite($header_file_handle, $header_code);
 	fwrite($main_file_handle, $main_code);
@@ -87,5 +94,6 @@ fwrite($markdown_file_handle, $markdown_file_footer_meta);
 
 fclose($header_file_handle);
 fclose($main_file_handle);
+fclose($markdown_file_handle);
 
 ?>

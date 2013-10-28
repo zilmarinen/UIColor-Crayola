@@ -8,7 +8,7 @@ List of 273 colors sourced from: <a href="http://en.wikipedia.org/wiki/Crayola_c
 <table>
 
 	<tr>
-		<td><img src="https://github.com/CaptainRedmuff/UIColor-Crayola/blob/master/images/AbsoluteZero.png" alt="crayolaAbsoluteZeroColor" width="32" height="32" /></td>
+		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/AbsoluteZero.png" alt="crayolaAbsoluteZeroColor" width="32" height="32" /></td>
 		<td>Absolute Zero</td>
 		<td>[UIColor crayolaAbsoluteZeroColor]</td>
 		<td>[UIColor colorWithRed:0.00 green:0.28 blue:0.73 alpha:1.0]</td>

@@ -13,1367 +13,3278 @@
 
 + (UIColor *)crayolaAbsoluteZeroColor
 {
-	return [UIColor colorWithRed:0.00 green:0.28 blue:0.73 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.28 blue:0.73 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAlienArmpitColor
 {
-	return [UIColor colorWithRed:0.52 green:0.87 blue:0.01 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.52 green:0.87 blue:0.01 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAlloyOrangeColor
 {
-	return [UIColor colorWithRed:0.77 green:0.38 blue:0.06 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.77 green:0.38 blue:0.06 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAlmondColor
 {
-	return [UIColor colorWithRed:0.94 green:0.87 blue:0.80 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.94 green:0.87 blue:0.80 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAmethystColor
 {
-	return [UIColor colorWithRed:0.39 green:0.38 blue:0.60 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.39 green:0.38 blue:0.60 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAntiqueBrassColor
 {
-	return [UIColor colorWithRed:0.80 green:0.58 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.80 green:0.58 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaApricotColor
 {
-	return [UIColor colorWithRed:0.99 green:0.85 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.85 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAquaPearlColor
 {
-	return [UIColor colorWithRed:0.37 green:0.75 blue:0.84 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.37 green:0.75 blue:0.84 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAquamarineColor
 {
-	return [UIColor colorWithRed:0.47 green:0.86 blue:0.89 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.47 green:0.86 blue:0.89 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAsparagusColor
 {
-	return [UIColor colorWithRed:0.53 green:0.66 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.53 green:0.66 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAtomicTangerineColor
 {
-	return [UIColor colorWithRed:1.00 green:0.64 blue:0.45 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.64 blue:0.45 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaAztecGoldColor
 {
-	return [UIColor colorWithRed:0.76 green:0.60 blue:0.33 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.76 green:0.60 blue:0.33 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBabyPowderColor
 {
-	return [UIColor colorWithRed:1.00 green:1.00 blue:0.98 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.98 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBananaColor
 {
-	return [UIColor colorWithRed:1.00 green:0.82 blue:0.16 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.82 blue:0.16 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBananaManiaColor
 {
-	return [UIColor colorWithRed:0.98 green:0.91 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.98 green:0.91 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBdazzledBlueColor
 {
-	return [UIColor colorWithRed:0.18 green:0.35 blue:0.58 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.18 green:0.35 blue:0.58 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBeaverColor
 {
-	return [UIColor colorWithRed:0.62 green:0.51 blue:0.44 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.62 green:0.51 blue:0.44 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBigDipORubyColor
 {
-	return [UIColor colorWithRed:0.61 green:0.15 blue:0.26 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.61 green:0.15 blue:0.26 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBigFootFeetColor
 {
-	return [UIColor colorWithRed:0.91 green:0.56 blue:0.35 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.91 green:0.56 blue:0.35 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBittersweetColor
 {
-	return [UIColor colorWithRed:0.99 green:0.49 blue:0.43 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.49 blue:0.43 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBittersweetShimmerColor
 {
-	return [UIColor colorWithRed:0.75 green:0.31 blue:0.32 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.75 green:0.31 blue:0.32 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlackColor
 {
-	return [UIColor colorWithRed:0.00 green:0.00 blue:0.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.00 blue:0.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlackCoralPearlColor
 {
-	return [UIColor colorWithRed:0.33 green:0.38 blue:0.44 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.33 green:0.38 blue:0.44 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlackShadowsColor
 {
-	return [UIColor colorWithRed:0.75 green:0.69 blue:0.70 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.75 green:0.69 blue:0.70 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlastOffBronzeColor
 {
-	return [UIColor colorWithRed:0.65 green:0.44 blue:0.39 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.65 green:0.44 blue:0.39 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlizzardBlueColor
 {
-	return [UIColor colorWithRed:0.67 green:0.90 blue:0.93 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.67 green:0.90 blue:0.93 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueColor
 {
-	return [UIColor colorWithRed:0.12 green:0.46 blue:1.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.12 green:0.46 blue:1.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueBellColor
 {
-	return [UIColor colorWithRed:0.64 green:0.64 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.64 green:0.64 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueGrayColor
 {
-	return [UIColor colorWithRed:0.00 green:0.02 blue:0.61 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.02 blue:0.61 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueGreenColor
 {
-	return [UIColor colorWithRed:0.05 green:0.60 blue:0.73 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.05 green:0.60 blue:0.73 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueJeansColor
 {
-	return [UIColor colorWithRed:0.36 green:0.68 blue:0.93 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.36 green:0.68 blue:0.93 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueVioletColor
 {
-	return [UIColor colorWithRed:0.45 green:0.40 blue:0.74 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.45 green:0.40 blue:0.74 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlueberryColor
 {
-	return [UIColor colorWithRed:0.31 green:0.53 blue:0.97 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.31 green:0.53 blue:0.97 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBlushColor
 {
-	return [UIColor colorWithRed:0.87 green:0.36 blue:0.51 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.87 green:0.36 blue:0.51 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBoogerBusterColor
 {
-	return [UIColor colorWithRed:0.87 green:0.89 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.87 green:0.89 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBrickRedColor
 {
-	return [UIColor colorWithRed:0.80 green:0.25 blue:0.33 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.80 green:0.25 blue:0.33 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBrightYellowColor
 {
-	return [UIColor colorWithRed:1.00 green:0.67 blue:0.11 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.67 blue:0.11 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBrownColor
 {
-	return [UIColor colorWithRed:0.71 green:0.40 blue:0.30 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.71 green:0.40 blue:0.30 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBrownSugarColor
 {
-	return [UIColor colorWithRed:0.69 green:0.43 blue:0.30 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.69 green:0.43 blue:0.30 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBubbleGumColor
 {
-	return [UIColor colorWithRed:1.00 green:0.83 blue:0.97 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.83 blue:0.97 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBurnishedBrownColor
 {
-	return [UIColor colorWithRed:0.63 green:0.48 blue:0.45 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.63 green:0.48 blue:0.45 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBurntOrangeColor
 {
-	return [UIColor colorWithRed:1.00 green:0.50 blue:0.29 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.50 blue:0.29 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaBurntSiennaColor
 {
-	return [UIColor colorWithRed:0.92 green:0.49 blue:0.36 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.92 green:0.49 blue:0.36 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCadetBlueColor
 {
-	return [UIColor colorWithRed:0.69 green:0.72 blue:0.78 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.69 green:0.72 blue:0.78 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCanaryColor
 {
-	return [UIColor colorWithRed:0.00 green:0.06 blue:0.98 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.98 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCaribbeanGreenColor
 {
-	return [UIColor colorWithRed:0.11 green:0.83 blue:0.64 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.11 green:0.83 blue:0.64 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCaribbeanGreenPearlColor
 {
-	return [UIColor colorWithRed:0.42 green:0.85 blue:0.56 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.42 green:0.85 blue:0.56 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCarnationPinkColor
 {
-	return [UIColor colorWithRed:0.00 green:0.06 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCedarChestColor
 {
-	return [UIColor colorWithRed:0.79 green:0.35 blue:0.29 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.79 green:0.35 blue:0.29 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCeriseColor
 {
-	return [UIColor colorWithRed:0.87 green:0.27 blue:0.57 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.87 green:0.27 blue:0.57 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCeruleanColor
 {
-	return [UIColor colorWithRed:0.11 green:0.67 blue:0.84 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.11 green:0.67 blue:0.84 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCeruleanFrostColor
 {
-	return [UIColor colorWithRed:0.43 green:0.61 blue:0.76 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.43 green:0.61 blue:0.76 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCherryColor
 {
-	return [UIColor colorWithRed:0.85 green:0.15 blue:0.28 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.85 green:0.15 blue:0.28 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaChestnutColor
 {
-	return [UIColor colorWithRed:0.74 green:0.36 blue:0.35 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.74 green:0.36 blue:0.35 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaChocolateColor
 {
-	return [UIColor colorWithRed:0.74 green:0.51 blue:0.38 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.74 green:0.51 blue:0.38 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCinnamonSatinColor
 {
-	return [UIColor colorWithRed:0.80 green:0.38 blue:0.49 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.80 green:0.38 blue:0.49 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCitrineColor
 {
-	return [UIColor colorWithRed:0.58 green:0.22 blue:0.04 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.58 green:0.22 blue:0.04 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCoconutColor
 {
-	return [UIColor colorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCopperColor
 {
-	return [UIColor colorWithRed:0.87 green:0.58 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.87 green:0.58 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCopperPennyColor
 {
-	return [UIColor colorWithRed:0.68 green:0.44 blue:0.41 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.68 green:0.44 blue:0.41 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCornflowerColor
 {
-	return [UIColor colorWithRed:0.60 green:0.81 blue:0.92 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.60 green:0.81 blue:0.92 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCosmicCobaltColor
 {
-	return [UIColor colorWithRed:0.18 green:0.18 blue:0.53 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.18 green:0.18 blue:0.53 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCottonCandyColor
 {
-	return [UIColor colorWithRed:1.00 green:0.74 blue:0.85 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.74 blue:0.85 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCulturedPearlColor
 {
-	return [UIColor colorWithRed:0.96 green:0.96 blue:0.96 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.96 green:0.96 blue:0.96 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaCyberGrapeColor
 {
-	return [UIColor colorWithRed:0.35 green:0.26 blue:0.49 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.35 green:0.26 blue:0.49 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDaffodilColor
 {
-	return [UIColor colorWithRed:1.00 green:1.00 blue:0.19 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.19 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDandelionColor
 {
-	return [UIColor colorWithRed:0.99 green:0.86 blue:0.43 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.86 blue:0.43 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDeepSpaceSparkleColor
 {
-	return [UIColor colorWithRed:0.29 green:0.39 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.29 green:0.39 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDenimColor
 {
-	return [UIColor colorWithRed:0.17 green:0.42 blue:0.77 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.17 green:0.42 blue:0.77 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDenimBlueColor
 {
-	return [UIColor colorWithRed:0.13 green:0.26 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.13 green:0.26 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDesertSandColor
 {
-	return [UIColor colorWithRed:0.94 green:0.80 blue:0.72 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.94 green:0.80 blue:0.72 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDingyDungeonColor
 {
-	return [UIColor colorWithRed:0.77 green:0.19 blue:0.32 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.77 green:0.19 blue:0.32 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaDirtColor
 {
-	return [UIColor colorWithRed:0.61 green:0.46 blue:0.33 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.61 green:0.46 blue:0.33 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaEerieBlackColor
 {
-	return [UIColor colorWithRed:0.11 green:0.11 blue:0.11 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.11 green:0.11 blue:0.11 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaEggplantColor
 {
-	return [UIColor colorWithRed:0.43 green:0.32 blue:0.38 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.43 green:0.32 blue:0.38 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaElectricLimeColor
 {
-	return [UIColor colorWithRed:0.81 green:1.00 blue:0.11 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.81 green:1.00 blue:0.11 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaEmeraldColor
 {
-	return [UIColor colorWithRed:0.08 green:0.66 blue:0.54 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.08 green:0.66 blue:0.54 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaEucalyptusColor
 {
-	return [UIColor colorWithRed:0.27 green:0.84 blue:0.66 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.27 green:0.84 blue:0.66 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaFernColor
 {
-	return [UIColor colorWithRed:0.44 green:0.74 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.44 green:0.74 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaFieryRoseColor
 {
-	return [UIColor colorWithRed:1.00 green:0.33 blue:0.44 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.33 blue:0.44 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaForestGreenColor
 {
-	return [UIColor colorWithRed:0.43 green:0.68 blue:0.51 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.43 green:0.68 blue:0.51 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaFreshAirColor
 {
-	return [UIColor colorWithRed:0.65 green:0.91 blue:1.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.65 green:0.91 blue:1.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaFrostbiteColor
 {
-	return [UIColor colorWithRed:0.91 green:0.21 blue:0.65 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.91 green:0.21 blue:0.65 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaFuchsiaColor
 {
-	return [UIColor colorWithRed:0.76 green:0.39 blue:0.77 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.76 green:0.39 blue:0.77 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaFuzzyWuzzyColor
 {
-	return [UIColor colorWithRed:0.00 green:0.05 blue:0.40 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.05 blue:0.40 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGargoyleGasColor
 {
-	return [UIColor colorWithRed:1.00 green:0.87 blue:0.27 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.87 blue:0.27 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGiantsClubColor
 {
-	return [UIColor colorWithRed:0.69 green:0.36 blue:0.32 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.69 green:0.36 blue:0.32 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGlossyGrapeColor
 {
-	return [UIColor colorWithRed:0.67 green:0.57 blue:0.70 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.67 green:0.57 blue:0.70 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGoldColor
 {
-	return [UIColor colorWithRed:0.91 green:0.78 blue:0.59 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.91 green:0.78 blue:0.59 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGoldFusionColor
 {
-	return [UIColor colorWithRed:0.52 green:0.46 blue:0.31 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.52 green:0.46 blue:0.31 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGoldenrodColor
 {
-	return [UIColor colorWithRed:0.99 green:0.85 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.85 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGraniteGrayColor
 {
-	return [UIColor colorWithRed:0.40 green:0.40 blue:0.40 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.40 green:0.40 blue:0.40 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGrannySmithAppleColor
 {
-	return [UIColor colorWithRed:0.66 green:0.89 blue:0.63 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.66 green:0.89 blue:0.63 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGrapeColor
 {
-	return [UIColor colorWithRed:0.44 green:0.18 blue:0.66 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.44 green:0.18 blue:0.66 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGrayColor
 {
-	return [UIColor colorWithRed:0.58 green:0.57 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.58 green:0.57 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGreenColor
 {
-	return [UIColor colorWithRed:0.11 green:0.67 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.11 green:0.67 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGreenBlueColor
 {
-	return [UIColor colorWithRed:0.07 green:0.39 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.07 green:0.39 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGreenLizardColor
 {
-	return [UIColor colorWithRed:0.65 green:0.96 blue:0.20 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.65 green:0.96 blue:0.20 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGreenSheenColor
 {
-	return [UIColor colorWithRed:0.43 green:0.68 blue:0.63 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.43 green:0.68 blue:0.63 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaGreenYellowColor
 {
-	return [UIColor colorWithRed:0.94 green:0.91 blue:0.57 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.94 green:0.91 blue:0.57 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaHeatWaveColor
 {
-	return [UIColor colorWithRed:1.00 green:0.48 blue:0.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.48 blue:0.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaHotMagentaColor
 {
-	return [UIColor colorWithRed:1.00 green:0.11 blue:0.81 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.11 blue:0.81 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaIlluminatingEmeraldColor
 {
-	return [UIColor colorWithRed:0.19 green:0.57 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.19 green:0.57 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaInchwormColor
 {
-	return [UIColor colorWithRed:0.70 green:0.93 blue:0.36 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.70 green:0.93 blue:0.36 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaIndigoColor
 {
-	return [UIColor colorWithRed:0.36 green:0.46 blue:0.80 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.36 green:0.46 blue:0.80 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaJadeColor
 {
-	return [UIColor colorWithRed:0.27 green:0.60 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.27 green:0.60 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaJasperColor
 {
-	return [UIColor colorWithRed:0.82 green:0.33 blue:0.25 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.82 green:0.33 blue:0.25 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaJazzberryJamColor
 {
-	return [UIColor colorWithRed:0.79 green:0.22 blue:0.40 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.79 green:0.22 blue:0.40 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaJellyBeanColor
 {
-	return [UIColor colorWithRed:0.85 green:0.38 blue:0.31 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.85 green:0.38 blue:0.31 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaJungleGreenColor
 {
-	return [UIColor colorWithRed:0.23 green:0.69 blue:0.56 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.23 green:0.69 blue:0.56 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaKeyLimePearlColor
 {
-	return [UIColor colorWithRed:0.91 green:0.96 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.91 green:0.96 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLapisLazuliColor
 {
-	return [UIColor colorWithRed:0.26 green:0.42 blue:0.73 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.26 green:0.42 blue:0.73 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLaserLemonColor
 {
-	return [UIColor colorWithRed:1.00 green:1.00 blue:0.13 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.13 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLavenderColor
 {
-	return [UIColor colorWithRed:0.99 green:0.71 blue:0.84 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.71 blue:0.84 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLeatherJacketColor
 {
-	return [UIColor colorWithRed:0.15 green:0.21 blue:0.16 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.15 green:0.21 blue:0.16 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLemonColor
 {
-	return [UIColor colorWithRed:1.00 green:1.00 blue:0.22 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:1.00 blue:0.22 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLemonGlacierColor
 {
-	return [UIColor colorWithRed:0.99 green:1.00 blue:0.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:1.00 blue:0.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLemonYellowColor
 {
-	return [UIColor colorWithRed:1.00 green:0.96 blue:0.31 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.96 blue:0.31 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLicoriceColor
 {
-	return [UIColor colorWithRed:0.10 green:0.07 blue:0.06 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.10 green:0.07 blue:0.06 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLilacColor
 {
-	return [UIColor colorWithRed:0.86 green:0.57 blue:0.94 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.86 green:0.57 blue:0.94 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLilacLusterColor
 {
-	return [UIColor colorWithRed:0.68 green:0.60 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.68 green:0.60 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLimeColor
 {
-	return [UIColor colorWithRed:0.70 green:0.95 blue:0.01 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.70 green:0.95 blue:0.01 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaLumberColor
 {
-	return [UIColor colorWithRed:1.00 green:0.89 blue:0.80 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.89 blue:0.80 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMacaroniCheeseColor
 {
-	return [UIColor colorWithRed:1.00 green:0.74 blue:0.53 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.74 blue:0.53 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMagentaColor
 {
-	return [UIColor colorWithRed:0.96 green:0.39 blue:0.69 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.96 green:0.39 blue:0.69 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMagicMintColor
 {
-	return [UIColor colorWithRed:0.67 green:0.94 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.67 green:0.94 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMagicPotionColor
 {
-	return [UIColor colorWithRed:0.00 green:0.06 blue:0.27 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.27 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMahoganyColor
 {
-	return [UIColor colorWithRed:0.80 green:0.29 blue:0.30 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.80 green:0.29 blue:0.30 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMaizeColor
 {
-	return [UIColor colorWithRed:0.93 green:0.82 blue:0.61 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.93 green:0.82 blue:0.61 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMalachiteColor
 {
-	return [UIColor colorWithRed:0.27 green:0.58 blue:0.59 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.27 green:0.58 blue:0.59 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaManateeColor
 {
-	return [UIColor colorWithRed:0.59 green:0.60 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.59 green:0.60 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMandarinPearlColor
 {
-	return [UIColor colorWithRed:0.95 green:0.48 blue:0.28 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.95 green:0.48 blue:0.28 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMangoTangoColor
 {
-	return [UIColor colorWithRed:1.00 green:0.51 blue:0.26 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.51 blue:0.26 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMaroonColor
 {
-	return [UIColor colorWithRed:0.78 green:0.22 blue:0.35 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.78 green:0.22 blue:0.35 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMauvelousColor
 {
-	return [UIColor colorWithRed:0.94 green:0.60 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.94 green:0.60 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMelonColor
 {
-	return [UIColor colorWithRed:0.99 green:0.74 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.74 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMetallicSeaweedColor
 {
-	return [UIColor colorWithRed:0.04 green:0.49 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.04 green:0.49 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMetallicSunburstColor
 {
-	return [UIColor colorWithRed:0.61 green:0.49 blue:0.22 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.61 green:0.49 blue:0.22 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMidnightBlueColor
 {
-	return [UIColor colorWithRed:0.10 green:0.28 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.10 green:0.28 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMidnightPearlColor
 {
-	return [UIColor colorWithRed:0.44 green:0.15 blue:0.44 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.44 green:0.15 blue:0.44 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMistyMossColor
 {
-	return [UIColor colorWithRed:0.73 green:0.71 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.73 green:0.71 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMoonstoneColor
 {
-	return [UIColor colorWithRed:0.23 green:0.66 blue:0.76 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.23 green:0.66 blue:0.76 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMountainMeadowColor
 {
-	return [UIColor colorWithRed:0.19 green:0.73 blue:0.56 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.19 green:0.73 blue:0.56 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMulberryColor
 {
-	return [UIColor colorWithRed:0.77 green:0.29 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.77 green:0.29 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMummysTombColor
 {
-	return [UIColor colorWithRed:0.51 green:0.56 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.51 green:0.56 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMysticMaroonColor
 {
-	return [UIColor colorWithRed:0.68 green:0.26 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.68 green:0.26 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaMysticPearlColor
 {
-	return [UIColor colorWithRed:0.84 green:0.32 blue:0.51 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.84 green:0.32 blue:0.51 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaNavyBlueColor
 {
-	return [UIColor colorWithRed:0.10 green:0.45 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.10 green:0.45 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaNeonCarrotColor
 {
-	return [UIColor colorWithRed:1.00 green:0.64 blue:0.26 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.64 blue:0.26 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaNewCarColor
 {
-	return [UIColor colorWithRed:0.13 green:0.31 blue:0.78 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.13 green:0.31 blue:0.78 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOceanBluePearlColor
 {
-	return [UIColor colorWithRed:0.31 green:0.26 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.31 green:0.26 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOceanGreenPearlColor
 {
-	return [UIColor colorWithRed:0.28 green:0.75 blue:0.57 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.28 green:0.75 blue:0.57 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOgreOdorColor
 {
-	return [UIColor colorWithRed:0.99 green:0.32 blue:0.25 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.32 blue:0.25 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOliveGreenColor
 {
-	return [UIColor colorWithRed:0.73 green:0.72 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.73 green:0.72 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOnyxColor
 {
-	return [UIColor colorWithRed:0.21 green:0.22 blue:0.22 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.21 green:0.22 blue:0.22 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOrangeColor
 {
-	return [UIColor colorWithRed:1.00 green:0.46 blue:0.22 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.46 blue:0.22 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOrangeRedColor
 {
-	return [UIColor colorWithRed:1.00 green:0.17 blue:0.17 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.17 blue:0.17 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOrangeSodaColor
 {
-	return [UIColor colorWithRed:0.98 green:0.36 blue:0.24 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.98 green:0.36 blue:0.24 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOrangeYellowColor
 {
-	return [UIColor colorWithRed:0.97 green:0.84 blue:0.41 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.97 green:0.84 blue:0.41 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOrchidColor
 {
-	return [UIColor colorWithRed:0.90 green:0.66 blue:0.84 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.90 green:0.66 blue:0.84 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOrchidPearlColor
 {
-	return [UIColor colorWithRed:0.48 green:0.26 blue:0.35 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.48 green:0.26 blue:0.35 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOuterSpaceColor
 {
-	return [UIColor colorWithRed:0.25 green:0.29 blue:0.30 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.25 green:0.29 blue:0.30 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaOutrageousOrangeColor
 {
-	return [UIColor colorWithRed:1.00 green:0.43 blue:0.29 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.43 blue:0.29 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPacificBlueColor
 {
-	return [UIColor colorWithRed:0.11 green:0.66 blue:0.79 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.11 green:0.66 blue:0.79 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPeachColor
 {
-	return [UIColor colorWithRed:1.00 green:0.81 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.81 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPearlyPurpleColor
 {
-	return [UIColor colorWithRed:0.72 green:0.41 blue:0.64 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.72 green:0.41 blue:0.64 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPeridotColor
 {
-	return [UIColor colorWithRed:0.67 green:0.68 blue:0.28 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.67 green:0.68 blue:0.28 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPeriwinkleColor
 {
-	return [UIColor colorWithRed:0.77 green:0.82 blue:0.90 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.77 green:0.82 blue:0.90 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPewterBlueColor
 {
-	return [UIColor colorWithRed:0.55 green:0.66 blue:0.72 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.55 green:0.66 blue:0.72 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPiggyPinkColor
 {
-	return [UIColor colorWithRed:0.99 green:0.87 blue:0.90 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.87 blue:0.90 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPineColor
 {
-	return [UIColor colorWithRed:0.27 green:0.64 blue:0.49 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.27 green:0.64 blue:0.49 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPineGreenColor
 {
-	return [UIColor colorWithRed:0.08 green:0.50 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.08 green:0.50 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPinkFlamingoColor
 {
-	return [UIColor colorWithRed:0.99 green:0.45 blue:0.99 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.45 blue:0.99 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPinkPearlColor
 {
-	return [UIColor colorWithRed:0.69 green:0.44 blue:0.50 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.69 green:0.44 blue:0.50 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPinkSherbertColor
 {
-	return [UIColor colorWithRed:0.97 green:0.56 blue:0.65 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.97 green:0.56 blue:0.65 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPixiePowderColor
 {
-	return [UIColor colorWithRed:0.22 green:0.07 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.22 green:0.07 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPlumColor
 {
-	return [UIColor colorWithRed:0.56 green:0.27 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.56 green:0.27 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPlumpPurpleColor
 {
-	return [UIColor colorWithRed:0.35 green:0.27 blue:0.70 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.35 green:0.27 blue:0.70 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPolishedPineColor
 {
-	return [UIColor colorWithRed:0.36 green:0.64 blue:0.58 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.36 green:0.64 blue:0.58 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPrincessPerfumeColor
 {
-	return [UIColor colorWithRed:1.00 green:0.52 blue:0.81 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.52 blue:0.81 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPurpleHeartColor
 {
-	return [UIColor colorWithRed:0.45 green:0.26 blue:0.78 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.45 green:0.26 blue:0.78 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPurpleMountainsMajestyColor
 {
-	return [UIColor colorWithRed:0.62 green:0.51 blue:0.73 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.62 green:0.51 blue:0.73 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPurplePizzazzColor
 {
-	return [UIColor colorWithRed:1.00 green:0.31 blue:0.85 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.31 blue:0.85 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaPurplePlumColor
 {
-	return [UIColor colorWithRed:0.61 green:0.32 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.61 green:0.32 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaQuickSilverColor
 {
-	return [UIColor colorWithRed:0.65 green:0.65 blue:0.65 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.65 green:0.65 blue:0.65 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRadicalRedColor
 {
-	return [UIColor colorWithRed:1.00 green:0.29 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.29 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRawSiennaColor
 {
-	return [UIColor colorWithRed:0.84 green:0.54 blue:0.35 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.84 green:0.54 blue:0.35 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRawUmberColor
 {
-	return [UIColor colorWithRed:0.44 green:0.29 blue:0.14 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.44 green:0.29 blue:0.14 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRazzleDazzleRoseColor
 {
-	return [UIColor colorWithRed:1.00 green:0.28 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.28 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRazzmatazzColor
 {
-	return [UIColor colorWithRed:0.89 green:0.15 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.89 green:0.15 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRazzmicBerryColor
 {
-	return [UIColor colorWithRed:0.55 green:0.31 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.55 green:0.31 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRedColor
 {
-	return [UIColor colorWithRed:0.93 green:0.13 blue:0.30 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.93 green:0.13 blue:0.30 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRedOrangeColor
 {
-	return [UIColor colorWithRed:1.00 green:0.33 blue:0.29 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.33 blue:0.29 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRedSalsaColor
 {
-	return [UIColor colorWithRed:0.99 green:0.23 blue:0.29 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.23 blue:0.29 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRedVioletColor
 {
-	return [UIColor colorWithRed:0.75 green:0.27 blue:0.56 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.75 green:0.27 blue:0.56 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRobinsEggBlueColor
 {
-	return [UIColor colorWithRed:0.12 green:0.81 blue:0.80 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.12 green:0.81 blue:0.80 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRoseColor
 {
-	return [UIColor colorWithRed:1.00 green:0.31 blue:0.31 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.31 blue:0.31 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRoseDustColor
 {
-	return [UIColor colorWithRed:0.62 green:0.37 blue:0.44 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.62 green:0.37 blue:0.44 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRosePearlColor
 {
-	return [UIColor colorWithRed:0.94 green:0.22 blue:0.40 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.94 green:0.22 blue:0.40 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRoseQuartzColor
 {
-	return [UIColor colorWithRed:0.74 green:0.33 blue:0.61 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.74 green:0.33 blue:0.61 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRoyalPurpleColor
 {
-	return [UIColor colorWithRed:0.47 green:0.32 blue:0.66 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.47 green:0.32 blue:0.66 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRubyColor
 {
-	return [UIColor colorWithRed:0.67 green:0.25 blue:0.41 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.67 green:0.25 blue:0.41 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaRustyRedColor
 {
-	return [UIColor colorWithRed:0.85 green:0.17 blue:0.26 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.85 green:0.17 blue:0.26 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSalmonColor
 {
-	return [UIColor colorWithRed:1.00 green:0.61 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.61 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSalmonPearlColor
 {
-	return [UIColor colorWithRed:0.95 green:0.27 blue:0.29 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.95 green:0.27 blue:0.29 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSapphireColor
 {
-	return [UIColor colorWithRed:0.18 green:0.36 blue:0.63 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.18 green:0.36 blue:0.63 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSasquatchSocksColor
 {
-	return [UIColor colorWithRed:1.00 green:0.27 blue:0.51 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.27 blue:0.51 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaScarletColor
 {
-	return [UIColor colorWithRed:0.99 green:0.16 blue:0.28 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.16 blue:0.28 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaScreaminGreenColor
 {
-	return [UIColor colorWithRed:0.46 green:1.00 blue:0.48 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.46 green:1.00 blue:0.48 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSeaGreenColor
 {
-	return [UIColor colorWithRed:0.62 green:0.89 blue:0.75 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.62 green:0.89 blue:0.75 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSeaSerpentColor
 {
-	return [UIColor colorWithRed:0.29 green:0.78 blue:0.81 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.29 green:0.78 blue:0.81 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSepiaColor
 {
-	return [UIColor colorWithRed:0.65 green:0.41 blue:0.31 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.65 green:0.41 blue:0.31 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShadowColor
 {
-	return [UIColor colorWithRed:0.54 green:0.47 blue:0.36 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.54 green:0.47 blue:0.36 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShadowBlueColor
 {
-	return [UIColor colorWithRed:0.47 green:0.55 blue:0.65 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.47 green:0.55 blue:0.65 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShampooColor
 {
-	return [UIColor colorWithRed:1.00 green:0.81 blue:0.95 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.81 blue:0.95 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShamrockColor
 {
-	return [UIColor colorWithRed:0.27 green:0.81 blue:0.64 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.27 green:0.81 blue:0.64 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSheenGreenColor
 {
-	return [UIColor colorWithRed:0.56 green:0.83 blue:0.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.56 green:0.83 blue:0.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShimmeringBlushColor
 {
-	return [UIColor colorWithRed:0.85 green:0.53 blue:0.58 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.85 green:0.53 blue:0.58 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShinyShamrockColor
 {
-	return [UIColor colorWithRed:0.37 green:0.65 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.37 green:0.65 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaShockingPinkColor
 {
-	return [UIColor colorWithRed:0.98 green:0.49 blue:0.99 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.98 green:0.49 blue:0.99 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSilverColor
 {
-	return [UIColor colorWithRed:0.80 green:0.77 blue:0.76 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.80 green:0.77 blue:0.76 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSizzlingRedColor
 {
-	return [UIColor colorWithRed:1.00 green:0.22 blue:0.33 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.22 blue:0.33 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSizzlingSunriseColor
 {
-	return [UIColor colorWithRed:1.00 green:0.86 blue:0.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.86 blue:0.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSkyBlueColor
 {
-	return [UIColor colorWithRed:0.50 green:0.85 blue:0.92 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.50 green:0.85 blue:0.92 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSlimyGreenColor
 {
-	return [UIColor colorWithRed:0.16 green:0.59 blue:0.09 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.16 green:0.59 blue:0.09 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSmashedPumpkinColor
 {
-	return [UIColor colorWithRed:1.00 green:0.43 blue:0.23 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.43 blue:0.23 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSmokeColor
 {
-	return [UIColor colorWithRed:0.45 green:0.51 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.45 green:0.51 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSmokeyTopazColor
 {
-	return [UIColor colorWithRed:0.51 green:0.16 blue:0.05 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.51 green:0.16 blue:0.05 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSoapColor
 {
-	return [UIColor colorWithRed:0.81 green:0.78 blue:0.94 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.81 green:0.78 blue:0.94 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSonicSilverColor
 {
-	return [UIColor colorWithRed:0.46 green:0.46 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.46 green:0.46 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSpringFrostColor
 {
-	return [UIColor colorWithRed:0.53 green:1.00 blue:0.16 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.53 green:1.00 blue:0.16 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSpringGreenColor
 {
-	return [UIColor colorWithRed:0.93 green:0.92 blue:0.75 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.93 green:0.92 blue:0.75 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSteelBlueColor
 {
-	return [UIColor colorWithRed:0.00 green:0.51 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.51 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSteelTealColor
 {
-	return [UIColor colorWithRed:0.37 green:0.54 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.37 green:0.54 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaStrawberryColor
 {
-	return [UIColor colorWithRed:0.99 green:0.35 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.35 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSugarPlumColor
 {
-	return [UIColor colorWithRed:0.57 green:0.31 blue:0.46 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.57 green:0.31 blue:0.46 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSunburntCyclopsColor
 {
-	return [UIColor colorWithRed:1.00 green:0.25 blue:0.30 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.25 blue:0.30 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSunglowColor
 {
-	return [UIColor colorWithRed:1.00 green:0.81 blue:0.28 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.81 blue:0.28 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSunnyPearlColor
 {
-	return [UIColor colorWithRed:0.95 green:0.95 blue:0.48 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.95 green:0.95 blue:0.48 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSunsetOrangeColor
 {
-	return [UIColor colorWithRed:0.99 green:0.37 blue:0.33 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.37 blue:0.33 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSunsetPearlColor
 {
-	return [UIColor colorWithRed:0.95 green:0.80 blue:0.47 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.95 green:0.80 blue:0.47 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaSweetBrownColor
 {
-	return [UIColor colorWithRed:0.66 green:0.22 blue:0.19 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.66 green:0.22 blue:0.19 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTanColor
 {
-	return [UIColor colorWithRed:0.98 green:0.65 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.98 green:0.65 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTartOrangeColor
 {
-	return [UIColor colorWithRed:0.98 green:0.30 blue:0.27 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.98 green:0.30 blue:0.27 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTealBlueColor
 {
-	return [UIColor colorWithRed:0.09 green:0.65 blue:0.71 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.09 green:0.65 blue:0.71 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaThistleColor
 {
-	return [UIColor colorWithRed:0.92 green:0.78 blue:0.87 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.92 green:0.78 blue:0.87 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTickleMePinkColor
 {
-	return [UIColor colorWithRed:0.99 green:0.54 blue:0.67 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.54 blue:0.67 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTigersEyeColor
 {
-	return [UIColor colorWithRed:0.71 green:0.41 blue:0.09 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.71 green:0.41 blue:0.09 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTimberwolfColor
 {
-	return [UIColor colorWithRed:0.86 green:0.84 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.86 green:0.84 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTropicalRainForestColor
 {
-	return [UIColor colorWithRed:0.09 green:0.50 blue:0.43 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.09 green:0.50 blue:0.43 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTulipColor
 {
-	return [UIColor colorWithRed:1.00 green:0.53 blue:0.55 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.53 blue:0.55 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTumbleweedColor
 {
-	return [UIColor colorWithRed:0.87 green:0.67 blue:0.53 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.87 green:0.67 blue:0.53 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTurquoiseBlueColor
 {
-	return [UIColor colorWithRed:0.47 green:0.87 blue:0.91 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.47 green:0.87 blue:0.91 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTurquoisePearlColor
 {
-	return [UIColor colorWithRed:0.23 green:0.74 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.23 green:0.74 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaTwilightLavenderColor
 {
-	return [UIColor colorWithRed:0.54 green:0.29 blue:0.42 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.54 green:0.29 blue:0.42 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaUnmellowYellowColor
 {
-	return [UIColor colorWithRed:0.00 green:0.06 blue:0.96 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.00 green:0.06 blue:0.96 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaVioletBlueColor
 {
-	return [UIColor colorWithRed:0.20 green:0.29 blue:0.70 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.20 green:0.29 blue:0.70 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaVioletPurpleColor
 {
-	return [UIColor colorWithRed:0.57 green:0.43 blue:0.68 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.57 green:0.43 blue:0.68 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaVioletRedColor
 {
-	return [UIColor colorWithRed:0.97 green:0.33 blue:0.58 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.97 green:0.33 blue:0.58 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaVividTangerineColor
 {
-	return [UIColor colorWithRed:1.00 green:0.63 blue:0.54 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.63 blue:0.54 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaVividVioletColor
 {
-	return [UIColor colorWithRed:0.56 green:0.31 blue:0.62 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.56 green:0.31 blue:0.62 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWhiteColor
 {
-	return [UIColor colorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:1.00 blue:1.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWildBlueYonderColor
 {
-	return [UIColor colorWithRed:0.64 green:0.68 blue:0.82 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.64 green:0.68 blue:0.82 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWildStrawberryColor
 {
-	return [UIColor colorWithRed:1.00 green:0.26 blue:0.64 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.26 blue:0.64 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWildWatermelonColor
 {
-	return [UIColor colorWithRed:0.99 green:0.42 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.42 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWinterSkyColor
 {
-	return [UIColor colorWithRed:1.00 green:0.00 blue:0.49 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.00 blue:0.49 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWinterWizardColor
 {
-	return [UIColor colorWithRed:0.63 green:0.90 blue:1.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.63 green:0.90 blue:1.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWintergreenDreamColor
 {
-	return [UIColor colorWithRed:0.34 green:0.53 blue:0.49 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.34 green:0.53 blue:0.49 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaWisteriaColor
 {
-	return [UIColor colorWithRed:0.80 green:0.64 blue:0.87 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.80 green:0.64 blue:0.87 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaYellowColor
 {
-	return [UIColor colorWithRed:0.99 green:0.91 blue:0.51 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.99 green:0.91 blue:0.51 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaYellowGreenColor
 {
-	return [UIColor colorWithRed:0.77 green:0.89 blue:0.52 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:0.77 green:0.89 blue:0.52 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaYellowOrangeColor
 {
-	return [UIColor colorWithRed:1.00 green:0.71 blue:0.33 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.71 blue:0.33 alpha:1.0];
+	}
+
+	return color;
 }
 
 + (UIColor *)crayolaYellowSunshineColor
 {
-	return [UIColor colorWithRed:1.00 green:0.97 blue:0.00 alpha:1.0];
+	static UIColor *color = nil;
+
+	if(!color)
+	{
+		color = [UIColor colorWithRed:1.00 green:0.97 blue:0.00 alpha:1.0];
+	}
+
+	return color;
 }
 
 @end

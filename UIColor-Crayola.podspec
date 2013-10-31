@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/CaptainRedmuff/UIColor-Crayola.git", :tag => s.version }
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files  = 'Source', 'Source/*.{h,m}'
 
-  s.public_header_files = 'Classes/**/*.h'
+  s.public_header_files = 'Source/*.h'
 
   s.requires_arc = true
 

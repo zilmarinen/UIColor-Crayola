@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/CaptainRedmuff/UIColor-Crayola"
 
-  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author       = { "Zack Brown" => "zack@zackbrown.co.uk" }
 
   s.platform     = :ios, '5.0'
 
-  s.source       = { :git => "https://github.com/CaptainRedmuff/UIColor-Crayola.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/CaptainRedmuff/UIColor-Crayola.git", :tag => "#{s.version}" }
 
   s.source_files  = 'Source', 'Source/*.{h,m}'
 

@@ -3,7 +3,8 @@
 //
 //	filename: UIColor+Crayola.h
 //	author: Zack Brown
-//	date: 28/10/2013
+//	date: 07/11/2013
+//
 //*******
 //
 

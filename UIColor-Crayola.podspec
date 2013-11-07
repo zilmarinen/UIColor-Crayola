@@ -5,9 +5,11 @@ Pod::Spec.new do |s|
   s.summary      = "Crayola colors UIColor category"
 
   s.description  = <<-DESC
-                  UIColor category - because everybody loves wax crayons!
+                  Objective C Crayola UIColor category. Because everybody loves Crayola!
 
-                  List of 273 colors sourced from: Wikipedia's Crayola crayon colors article.
+                  List of 273 Crayola colors sourced from http://en.wikipedia.org/wiki/Crayola_colors written as a programming exercise and is not intended for profit.
+
+                  This list of colors is the property of Crayola LLC. Usage in a commerical application is at your own risk and I (Zack Brown) accept no liability.
                    DESC
 
   s.homepage     = "https://github.com/CaptainRedmuff/UIColor-Crayola"

@@ -3,7 +3,7 @@
 //
 //	filename: UIColor+Crayola.m
 //	author: Zack Brown
-//	date: 07/11/2013
+//	date: 30/12/2013
 //
 //*******
 //
@@ -154,7 +154,7 @@
 
 + (instancetype)crayolaBlueGrayColor
 {
-	return [[self class] crayolaColorWithRed:0.000 green:0.024 blue:0.612 alpha:1.0];
+	return [[self class] crayolaColorWithRed:0.400 green:0.600 blue:0.800 alpha:1.0];
 }
 
 + (instancetype)crayolaBlueGreenColor
@@ -234,7 +234,7 @@
 
 + (instancetype)crayolaCanaryColor
 {
-	return [[self class] crayolaColorWithRed:0.000 green:0.059 blue:0.976 alpha:1.0];
+	return [[self class] crayolaColorWithRed:1.000 green:1.000 blue:0.600 alpha:1.0];
 }
 
 + (instancetype)crayolaCaribbeanGreenColor
@@ -249,7 +249,7 @@
 
 + (instancetype)crayolaCarnationPinkColor
 {
-	return [[self class] crayolaColorWithRed:0.000 green:0.059 blue:0.675 alpha:1.0];
+	return [[self class] crayolaColorWithRed:1.000 green:0.667 blue:0.800 alpha:1.0];
 }
 
 + (instancetype)crayolaCedarChestColor
@@ -434,7 +434,7 @@
 
 + (instancetype)crayolaFuzzyWuzzyColor
 {
-	return [[self class] crayolaColorWithRed:0.000 green:0.047 blue:0.400 alpha:1.0];
+	return [[self class] crayolaColorWithRed:0.800 green:0.400 blue:0.400 alpha:1.0];
 }
 
 + (instancetype)crayolaGargoyleGasColor
@@ -644,7 +644,7 @@
 
 + (instancetype)crayolaMagicPotionColor
 {
-	return [[self class] crayolaColorWithRed:0.000 green:0.059 blue:0.275 alpha:1.0];
+	return [[self class] crayolaColorWithRed:1.000 green:0.267 blue:0.400 alpha:1.0];
 }
 
 + (instancetype)crayolaMahoganyColor
@@ -1289,7 +1289,7 @@
 
 + (instancetype)crayolaUnmellowYellowColor
 {
-	return [[self class] crayolaColorWithRed:0.000 green:0.059 blue:0.965 alpha:1.0];
+	return [[self class] crayolaColorWithRed:1.000 green:1.000 blue:0.400 alpha:1.0];
 }
 
 + (instancetype)crayolaVioletBlueColor

@@ -209,7 +209,7 @@ This list of colors is the property of Crayola LLC. Usage in a commerical applic
 		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/crayolaBlue GrayColor.png" width="32" height="32" alt="Blue Gray" /></td>
 		<td>Blue Gray</td>
 		<td>[UIColor crayolaBlueGrayColor]</td>
-		<td>[UIColor colorWithRed:0.000 green:0.024 blue:0.612 alpha:1.0]</td>
+		<td>[UIColor colorWithRed:0.400 green:0.600 blue:0.800 alpha:1.0]</td>
 	</tr>
 
 	<tr>
@@ -321,7 +321,7 @@ This list of colors is the property of Crayola LLC. Usage in a commerical applic
 		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/crayolaCanaryColor.png" width="32" height="32" alt="Canary" /></td>
 		<td>Canary</td>
 		<td>[UIColor crayolaCanaryColor]</td>
-		<td>[UIColor colorWithRed:0.000 green:0.059 blue:0.976 alpha:1.0]</td>
+		<td>[UIColor colorWithRed:1.000 green:1.000 blue:0.600 alpha:1.0]</td>
 	</tr>
 
 	<tr>
@@ -342,7 +342,7 @@ This list of colors is the property of Crayola LLC. Usage in a commerical applic
 		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/crayolaCarnation PinkColor.png" width="32" height="32" alt="Carnation Pink" /></td>
 		<td>Carnation Pink</td>
 		<td>[UIColor crayolaCarnationPinkColor]</td>
-		<td>[UIColor colorWithRed:0.000 green:0.059 blue:0.675 alpha:1.0]</td>
+		<td>[UIColor colorWithRed:1.000 green:0.667 blue:0.800 alpha:1.0]</td>
 	</tr>
 
 	<tr>
@@ -601,7 +601,7 @@ This list of colors is the property of Crayola LLC. Usage in a commerical applic
 		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/crayolaFuzzy WuzzyColor.png" width="32" height="32" alt="Fuzzy Wuzzy" /></td>
 		<td>Fuzzy Wuzzy</td>
 		<td>[UIColor crayolaFuzzyWuzzyColor]</td>
-		<td>[UIColor colorWithRed:0.000 green:0.047 blue:0.400 alpha:1.0]</td>
+		<td>[UIColor colorWithRed:0.800 green:0.400 blue:0.400 alpha:1.0]</td>
 	</tr>
 
 	<tr>
@@ -895,7 +895,7 @@ This list of colors is the property of Crayola LLC. Usage in a commerical applic
 		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/crayolaMagic PotionColor.png" width="32" height="32" alt="Magic Potion" /></td>
 		<td>Magic Potion</td>
 		<td>[UIColor crayolaMagicPotionColor]</td>
-		<td>[UIColor colorWithRed:0.000 green:0.059 blue:0.275 alpha:1.0]</td>
+		<td>[UIColor colorWithRed:1.000 green:0.267 blue:0.400 alpha:1.0]</td>
 	</tr>
 
 	<tr>
@@ -1798,7 +1798,7 @@ This list of colors is the property of Crayola LLC. Usage in a commerical applic
 		<td><img src="https://raw.github.com/CaptainRedmuff/UIColor-Crayola/master/images/crayolaUnmellow YellowColor.png" width="32" height="32" alt="Unmellow Yellow" /></td>
 		<td>Unmellow Yellow</td>
 		<td>[UIColor crayolaUnmellowYellowColor]</td>
-		<td>[UIColor colorWithRed:0.000 green:0.059 blue:0.965 alpha:1.0]</td>
+		<td>[UIColor colorWithRed:1.000 green:1.000 blue:0.400 alpha:1.0]</td>
 	</tr>
 
 	<tr>

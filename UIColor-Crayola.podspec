@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 
   s.author       = { "Zack Brown" => "zack@zackbrown.co.uk" }
 
-  s.platform     = :ios, '5.0'
+  s.ios.deployement_target = '5.0'
+
+  s.tvos.deployement_target = '9.0'
 
   s.source       = { :git => "https://github.com/CaptainRedmuff/UIColor-Crayola.git", :tag => "#{s.version}" }
 
